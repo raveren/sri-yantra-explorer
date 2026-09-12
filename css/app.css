@@ -137,7 +137,9 @@ button.danger { border-color: var(--danger) !important; color: var(--danger); }
 #region-view h2 { margin: 4px 0 10px; font-size: 1.2rem; }
 .block h3 { margin: 14px 0 4px; font-size: 0.8rem; text-transform: uppercase;
   letter-spacing: 0.07em; color: var(--muted); }
-.block p { margin: 0; white-space: pre-wrap; }
+/* direct child only: the plain-text translation. Must not reach the rendered
+   Markdown paragraphs inside .md, which need their margins. */
+.block > p { margin: 0; white-space: pre-wrap; }
 #rv-zoom, #re-zoom { margin-top: 16px; }
 
 #region-edit label { display: block; margin-bottom: 10px; font-size: 0.82rem; color: var(--muted); }
