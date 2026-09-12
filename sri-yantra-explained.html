@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Śrī Yantra, Explained</title>
+<style>
+  :root {
+    --bg: #171210; --panel: #221a15; --panel-2: #2b2119;
+    --text: #e9ddcd; --muted: #a3927e; --accent: #cf9862;
+    --line: #3a2d23; --dev: #f3e3c8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg); color: var(--text); margin: 0;
+    font: 16px/1.65 "Segoe UI", system-ui, sans-serif;
+  }
+  .dev { font-family: "Noto Serif Devanagari", "Noto Sans Devanagari", "Nirmala UI", "Mangal", serif;
+    color: var(--dev); }
+  main { max-width: 980px; margin: 0 auto; padding: 28px 20px 80px; }
+  h1 { color: var(--accent); font-size: 1.7rem; margin: 10px 0 4px; }
+  h2 { color: var(--accent); font-size: 1.25rem; margin: 46px 0 8px;
+    border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+  h3 { font-size: 1.02rem; margin: 28px 0 6px; color: var(--text); }
+  h3 .dev { font-size: 1.1rem; }
+  .lede { color: var(--muted); margin-top: 0; }
+  a { color: var(--accent); }
+  i, em { color: inherit; }
+  p.note, .note { color: var(--muted); font-size: 0.92rem; }
+
+  .callout { background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--accent);
+    border-radius: 10px; padding: 12px 18px; margin: 18px 0; font-size: 0.94rem; color: var(--muted); }
+  .callout b { color: var(--text); }
+
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 0.95rem; }
+  th, td { border: 1px solid var(--line); padding: 7px 11px; text-align: left; vertical-align: top; }
+  th { background: var(--panel); color: var(--muted); font-weight: 600; font-size: 0.8rem;
+    text-transform: uppercase; letter-spacing: 0.06em; }
+  tr:nth-child(even) td { background: rgba(255,255,255,0.018); }
+  td .dev { font-size: 1.05rem; }
+  .scroll-x { overflow-x: auto; }
+
+  .verse { background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+    padding: 18px 22px; margin: 18px 0; }
+  .verse .dev { display: block; font-size: 1.25rem; line-height: 2; }
+  .verse .iast { display: block; font-style: italic; color: var(--accent); margin-top: 8px; }
+  .verse .trans { display: block; color: var(--muted); margin-top: 10px; font-size: 0.95rem; }
+
+  .namelist { background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    padding: 12px 18px; margin: 12px 0; line-height: 2.1; }
+  .namelist .dev { font-size: 1.1rem; }
+  .namelist .n { white-space: nowrap; }
+  .namelist .sep { color: var(--line); margin: 0 7px; }
+  .namelist i { color: var(--muted); font-size: 0.9rem; }
+
+  #toc { background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+    padding: 14px 20px; margin: 22px 0; columns: 2; column-gap: 30px; font-size: 0.92rem; }
+  #toc a { display: block; padding: 2px 0; text-decoration: none; }
+  #toc a:hover { text-decoration: underline; }
+  .crumbs { color: var(--muted); font-size: 0.9rem; }
+  ol li, ul li { margin: 5px 0; }
+  @media (max-width: 700px) { #toc { columns: 1; } }
+</style>
+</head>
+<body>
+<main>
+  <p class="crumbs"><a href="index.html">← back to the yantra</a> · <a href="devanagari.html">letter reference →</a></p>
+  <h1>The Śrī Yantra, Explained</h1>
+  <p class="lede">A companion reference for the copper-plate scan in this project. Each section
+  maps onto the region groups in the viewer — when you trace a mantra in edit mode, the name
+  lists below are what you will be matching against the engravings.</p>
+
+  <nav id="toc">
+    <a href="#what">1 · What it is</a>
+    <a href="#geometry">2 · The geometry</a>
+    <a href="#overview">3 · The nine āvaraṇas — overview</a>
+    <a href="#rings">4 · Ring by ring, outside in</a>
+    <a href="#court">5 · The goddess and her court</a>
+    <a href="#mantras">6 · The mantras</a>
+    <a href="#worship">7 · How it is worshipped</a>
+    <a href="#sources">8 · Where it comes from</a>
+    <a href="#glossary">9 · Glossary</a>
+    <a href="#crosschecks">10 · Annotation cross-checks</a>
+  </nav>
+
+  <div class="callout"><b>A note on reliability.</b> Everything here is assembled from the
+  traditional Śrī Vidyā corpus (texts listed in §8). The broad structure — nine āvaraṇas,
+  their names, the deity lists — is stable across sources. Details vary between lineages:
+  the exact order of names within a ring, whether eight or ten siddhis are counted, minor
+  spellings. Where the plate disagrees with a "standard" list, trust the plate for
+  transcription and note the variant.</div>
+
+  <h2 id="what">1 · What it is</h2>
+  <p>The Śrī Yantra (<span class="dev">श्रीयन्त्र</span>, <i>śrīyantra</i>), also called the
+  <b>Śrī Cakra</b> (<span class="dev">श्रीचक्र</span>), is the central sacred diagram of the
+  <b>Śrī Vidyā</b> tradition — a South-Asian tantric lineage devoted to the goddess
+  <b>Lalitā Tripurasundarī</b> ("the beautiful one of the three worlds/cities"). It is often
+  called the <i>yantrarāja</i>, king of yantras: in Śrī Vidyā the diagram is not an
+  illustration of the goddess but her actual body in geometric form. Worship offered to the
+  yantra is worship offered to her.</p>
+  <p>A yantra (from the root <i>yam</i>, "to restrain, support") is an instrument — a support
+  for meditation and ritual. Copper plates like this one are engraved, ritually consecrated
+  (<i>prāṇa-pratiṣṭhā</i>, "installing the life-breath"), and then treated as a living seat
+  of the deity: bathed, anointed, offered flowers, and used as the ground for the navāvaraṇa
+  pūjā described in §7.</p>
+  <p>Three ideas organize everything else:</p>
+  <ol>
+    <li><b>Emanation and return.</b> The yantra is a map of the cosmos unfolding from a single
+    point (the <i>bindu</i>) outward into multiplicity, and equally a map of the practitioner's
+    return journey inward. Reading it outward-in is dissolution (<i>saṁhāra</i>); inward-out is
+    creation (<i>sṛṣṭi</i>).</li>
+    <li><b>Śiva and Śakti.</b> The interlocking triangles encode the union of consciousness
+    (Śiva, upward triangles) and energy (Śakti, downward triangles). Neither exists apart; the
+    diagram is their intercourse.</li>
+    <li><b>Macrocosm = microcosm.</b> The Bhāvanopaniṣad maps every ring of the yantra onto the
+    human body and psyche — the sixteen "attractor" goddesses are your own sixteen powers of
+    perception and appetite, and so on. The yantra is simultaneously the universe and you.</li>
+  </ol>
+
+  <h2 id="geometry">2 · The geometry</h2>
+  <p>At the center is the <b>bindu</b> (<span class="dev">बिन्दु</span>, "point"). Around it,
+  <b>nine interlocking triangles</b> — four pointing up (Śiva, called <i>śrīkaṇṭha</i>
+  triangles) and five pointing down (Śakti, <i>śivayuvati</i> triangles). Their intersections
+  generate <b>43 small triangles</b>, arranged in concentric rings:</p>
+  <table>
+    <tr><th>ring (inside → out)</th><th>triangles</th></tr>
+    <tr><td>central triangle</td><td>1</td></tr>
+    <tr><td>eight-triangle ring (<i>aṣṭakoṇa</i>)</td><td>8</td></tr>
+    <tr><td>inner ten-triangle ring (<i>antar-daśāra</i>)</td><td>10</td></tr>
+    <tr><td>outer ten-triangle ring (<i>bahir-daśāra</i>)</td><td>10</td></tr>
+    <tr><td>fourteen-triangle ring (<i>caturdaśāra</i> / <i>manvasra</i>)</td><td>14</td></tr>
+    <tr><td><b>total</b></td><td><b>43</b></td></tr>
+  </table>
+  <p>Around the triangles: an <b>eight-petaled lotus</b> (<i>aṣṭadala</i>), a
+  <b>sixteen-petaled lotus</b> (<i>ṣoḍaśadala</i>), <b>three circles</b> (<i>vṛtta-traya</i>
+  or <i>mekhalā-traya</i>, the three girdles), and finally the <b>bhūpura</b>
+  (<span class="dev">भूपुर</span>, "earth-city") — the square rampart of three nested lines
+  with four T-shaped gates opening to the cardinal directions.</p>
+  <p>A traditional verse — engraved <b>twice</b> on this very plate (upper-left and
+  lower-right text blocks) — enumerates the structure:</p>
+  <div class="verse">
+    <span class="dev">बिन्दुत्रिकोणवसुकोणदशारयुग्म-मन्वस्रनागदलसंयुतषोडशारम् ।<br>
+    वृत्तत्रयं च धरणीसदनत्रयं च श्रीचक्रमेतदुदितं परदेवतायाः ॥</span>
+    <span class="iast">bindu-trikoṇa-vasukoṇa-daśāra-yugma- manvasra-nāgadala-saṁyuta-ṣoḍaśāram |
+    vṛtta-trayaṁ ca dharaṇī-sadana-trayaṁ ca śrīcakram etad uditaṁ paradevatāyāḥ ||</span>
+    <span class="trans">"Point, triangle, the eight-cornered, the pair of ten-spoked, the
+    fourteen-spoked, together with the eight petals and the sixteen — the three circles and
+    the three earth-abodes: this is declared the Śrī Cakra of the Supreme Goddess."</span>
+  </div>
+  <p class="note">The number-words are the standard Sanskrit code: <i>vasu</i> = 8,
+  <i>manu</i> = 14, <i>nāga</i> = 8. The plate's engraving is a slight variant of this verse
+  — worth transcribing exactly as cut.</p>
+  <p>The Saundaryalaharī (v. 11) gives the same census poetically: four Śiva triangles, five
+  Śakti triangles, and with the lotuses, circles and lines the goddess's dwelling resolves
+  into forty-four corners (43 triangles + bindu).</p>
+  <p><b>Flat vs. raised.</b> A yantra drawn or engraved flat, like this plate, is a
+  <i>bhū-prastāra</i>. The same geometry projected into a stepped pyramid is a
+  <i>meru-prastāra</i> or Mahāmeru, identifying the yantra with Mount Meru, the world-axis.
+  (The small stepped-pyramid figure engraved on the upper right of this plate is almost
+  certainly a Meru glyph — a reminder of the 3-D reading.)</p>
+  <p><b>Construction note.</b> Drawing a correct Śrī Cakra is genuinely hard — the nine
+  triangles must close on shared intersection points, and manuscripts transmit competing
+  constructions (concurrent vs. non-concurrent solutions). Slight asymmetries in a
+  hand-engraved plate are normal and not defects.</p>
+
+  <h2 id="overview">3 · The nine āvaraṇas — overview</h2>
+  <p>The yantra is worshipped as nine concentric <b>āvaraṇas</b> (<span class="dev">आवरण</span>,
+  "enclosures", "veils"). Each has a name describing its power, a resident class of yoginīs,
+  a presiding goddess (<i>cakreśvarī</i>), an associated mudrā, and a fruit (<i>siddhi</i>).
+  This table is the skeleton of the whole tradition — and of this app's region groups:</p>
+  <div class="scroll-x">
+  <table>
+    <tr><th>#</th><th>enclosure</th><th>geometry</th><th>cakra name</th><th>meaning</th><th>yoginī class</th><th>cakreśvarī</th></tr>
+    <tr><td>1</td><td>bhūpura</td><td>3 square lines, 4 gates</td><td><span class="dev">त्रैलोक्यमोहन</span> <i>Trailokya-mohana</i></td><td>"enchants the three worlds"</td><td><span class="dev">प्रकट</span> Prakaṭa (manifest)</td><td><span class="dev">त्रिपुरा</span> Tripurā</td></tr>
+    <tr><td>2</td><td>16 petals</td><td>outer lotus</td><td><span class="dev">सर्वाशापरिपूरक</span> <i>Sarvāśā-paripūraka</i></td><td>"fulfills all hopes"</td><td><span class="dev">गुप्त</span> Gupta (hidden)</td><td><span class="dev">त्रिपुरेशी</span> Tripureśī</td></tr>
+    <tr><td>3</td><td>8 petals</td><td>inner lotus</td><td><span class="dev">सर्वसंक्षोभण</span> <i>Sarva-saṁkṣobhaṇa</i></td><td>"agitates all"</td><td><span class="dev">गुप्ततर</span> Guptatara (more hidden)</td><td><span class="dev">त्रिपुरसुन्दरी</span> Tripurasundarī</td></tr>
+    <tr><td>4</td><td>14 triangles</td><td>manvasra</td><td><span class="dev">सर्वसौभाग्यदायक</span> <i>Sarva-saubhāgya-dāyaka</i></td><td>"bestows all good fortune"</td><td><span class="dev">सम्प्रदाय</span> Sampradāya (traditional)</td><td><span class="dev">त्रिपुरवासिनी</span> Tripuravāsinī</td></tr>
+    <tr><td>5</td><td>outer 10</td><td>bahir-daśāra</td><td><span class="dev">सर्वार्थसाधक</span> <i>Sarvārtha-sādhaka</i></td><td>"accomplishes all aims"</td><td><span class="dev">कुलोत्तीर्ण</span> Kulottīrṇa (beyond the kula)</td><td><span class="dev">त्रिपुराश्रीः</span> Tripurāśrī</td></tr>
+    <tr><td>6</td><td>inner 10</td><td>antar-daśāra</td><td><span class="dev">सर्वरक्षाकर</span> <i>Sarva-rakṣā-kara</i></td><td>"gives all protection"</td><td><span class="dev">निगर्भ</span> Nigarbha (innermost)</td><td><span class="dev">त्रिपुरमालिनी</span> Tripuramālinī</td></tr>
+    <tr><td>7</td><td>8 triangles</td><td>aṣṭakoṇa</td><td><span class="dev">सर्वरोगहर</span> <i>Sarva-roga-hara</i></td><td>"removes all disease"</td><td><span class="dev">रहस्य</span> Rahasya (secret)</td><td><span class="dev">त्रिपुरासिद्धा</span> Tripurāsiddhā</td></tr>
+    <tr><td>8</td><td>central triangle</td><td>trikoṇa</td><td><span class="dev">सर्वसिद्धिप्रद</span> <i>Sarva-siddhi-prada</i></td><td>"grants all attainment"</td><td><span class="dev">अतिरहस्य</span> Atirahasya (most secret)</td><td><span class="dev">त्रिपुराम्बा</span> Tripurāmbā</td></tr>
+    <tr><td>9</td><td>bindu</td><td>point</td><td><span class="dev">सर्वानन्दमय</span> <i>Sarvānanda-maya</i></td><td>"formed of all bliss"</td><td><span class="dev">परापररहस्य</span> Parāpara-rahasya</td><td><span class="dev">महात्रिपुरसुन्दरी</span> Mahātripurasundarī</td></tr>
+  </table>
+  </div>
+  <p>The top-right text block on this plate is a string of salutations to these nine
+  cakreśvarīs (…<i>tripurāyai, tripureśyai, tripurasundaryai, tripuravāsinyai</i>…) — a
+  compact index of the whole scheme.</p>
+
+  <h2 id="rings">4 · Ring by ring, from the outside in</h2>
+
+  <h3>Āvaraṇa 1 — Bhūpura (Trailokya-mohana cakra)</h3>
+  <p>The square rampart is the boundary between ordinary space and sacred space —
+  "earth-city," the manifest world. Its three lines are worshipped as three distinct
+  populations, which is why bhūpura engravings are so text-dense:</p>
+  <p><b>Outer line — the ten siddhis</b> (<span class="dev">सिद्धि</span>, attainments),
+  engraved near the gates on this plate (you can see
+  <span class="dev">अणिमासिद्धिः</span> at the bottom gate):</p>
+  <table>
+    <tr><th>#</th><th>Devanagari</th><th>IAST</th><th>power</th></tr>
+    <tr><td>1</td><td class="dev">अणिमा</td><td><i>aṇimā</i></td><td>to become minute</td></tr>
+    <tr><td>2</td><td class="dev">लघिमा</td><td><i>laghimā</i></td><td>to become weightless</td></tr>
+    <tr><td>3</td><td class="dev">महिमा</td><td><i>mahimā</i></td><td>to become vast</td></tr>
+    <tr><td>4</td><td class="dev">ईशित्व</td><td><i>īśitva</i></td><td>lordship</td></tr>
+    <tr><td>5</td><td class="dev">वशित्व</td><td><i>vaśitva</i></td><td>to subjugate</td></tr>
+    <tr><td>6</td><td class="dev">प्राकाम्य</td><td><i>prākāmya</i></td><td>irresistible will</td></tr>
+    <tr><td>7</td><td class="dev">भुक्ति</td><td><i>bhukti</i></td><td>enjoyment</td></tr>
+    <tr><td>8</td><td class="dev">इच्छा</td><td><i>icchā</i></td><td>wish-fulfilment</td></tr>
+    <tr><td>9</td><td class="dev">प्राप्ति</td><td><i>prāpti</i></td><td>to reach anything</td></tr>
+    <tr><td>10</td><td class="dev">सर्वकामसिद्धि</td><td><i>sarvakāma-siddhi</i></td><td>all desires attained</td></tr>
+  </table>
+  <p class="note">Some lineages count eight, ending at prāpti; this plate appears to number
+  them, so the engraving itself will settle which list it follows.</p>
+  <p><b>Middle line — the eight mātṛkās</b> (<span class="dev">मातृका</span>, "little
+  mothers"), the śaktis of the great gods:</p>
+  <div class="namelist">
+    <span class="n"><span class="dev">ब्राह्मी</span> <i>Brāhmī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">माहेश्वरी</span> <i>Māheśvarī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">कौमारी</span> <i>Kaumārī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">वैष्णवी</span> <i>Vaiṣṇavī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">वाराही</span> <i>Vārāhī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">माहेन्द्री</span> <i>Māhendrī (Indrāṇī)</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">चामुण्डा</span> <i>Cāmuṇḍā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">महालक्ष्मी</span> <i>Mahālakṣmī</i></span>
+  </div>
+  <p><b>Inner line — the ten mudrā-śaktis</b>, the goddesses of the ritual hand gestures
+  (the plate's bottom edge shows several: …<span class="dev">सर्वबीजा, योनि</span>…):</p>
+  <div class="namelist">
+    <span class="n"><span class="dev">सर्वसंक्षोभिणी</span> <i>Sarva-saṁkṣobhiṇī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वविद्राविणी</span> <i>Sarva-vidrāviṇī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वाकर्षिणी</span> <i>Sarvākarṣiṇī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्ववशंकरी</span> <i>Sarva-vaśaṅkarī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वोन्मादिनी</span> <i>Sarvonmādinī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वमहाङ्कुशा</span> <i>Sarva-mahāṅkuśā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वखेचरी</span> <i>Sarva-khecarī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वबीजा</span> <i>Sarva-bījā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वयोनिः</span> <i>Sarva-yoni</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वत्रिखण्डा</span> <i>Sarva-trikhaṇḍā</i></span>
+  </div>
+  <p>The four gates face the cardinal directions; plates often label them (this one has
+  direction words like <span class="dev">उत्तर</span> "north" and
+  <span class="dev">पश्चिम</span> "west" engraved beside the appropriate sides) and station
+  the <i>lokapālas</i> (world-guardians) there.</p>
+
+  <h3>Āvaraṇa 2 — the sixteen petals (Sarvāśā-paripūraka cakra)</h3>
+  <p>Sixteen goddesses of "attraction" (<i>ākarṣiṇī</i>), one per petal — your own sixteen
+  faculties, each divinized. Each petal on this plate carries one of the <b>sixteen Sanskrit
+  vowels</b> (<span class="dev">अ आ इ ई उ ऊ ऋ ॠ ऌ ॡ ए ऐ ओ औ अं अः</span>) plus the goddess's
+  name — you can see e.g. <span class="dev">अ कामाकर्षिणी</span> engraved in a petal.</p>
+  <table>
+    <tr><th>vowel</th><th>Devanagari</th><th>IAST</th><th>attracts / divinizes</th></tr>
+    <tr><td class="dev">अ</td><td class="dev">कामाकर्षिणी</td><td><i>Kāmākarṣiṇī</i></td><td>desire</td></tr>
+    <tr><td class="dev">आ</td><td class="dev">बुद्ध्याकर्षिणी</td><td><i>Buddhyākarṣiṇī</i></td><td>intellect</td></tr>
+    <tr><td class="dev">इ</td><td class="dev">अहंकाराकर्षिणी</td><td><i>Ahaṁkārākarṣiṇī</i></td><td>ego</td></tr>
+    <tr><td class="dev">ई</td><td class="dev">शब्दाकर्षिणी</td><td><i>Śabdākarṣiṇī</i></td><td>sound</td></tr>
+    <tr><td class="dev">उ</td><td class="dev">स्पर्शाकर्षिणी</td><td><i>Sparśākarṣiṇī</i></td><td>touch</td></tr>
+    <tr><td class="dev">ऊ</td><td class="dev">रूपाकर्षिणी</td><td><i>Rūpākarṣiṇī</i></td><td>form</td></tr>
+    <tr><td class="dev">ऋ</td><td class="dev">रसाकर्षिणी</td><td><i>Rasākarṣiṇī</i></td><td>taste</td></tr>
+    <tr><td class="dev">ॠ</td><td class="dev">गन्धाकर्षिणी</td><td><i>Gandhākarṣiṇī</i></td><td>smell</td></tr>
+    <tr><td class="dev">ऌ</td><td class="dev">चित्ताकर्षिणी</td><td><i>Cittākarṣiṇī</i></td><td>mind</td></tr>
+    <tr><td class="dev">ॡ</td><td class="dev">धैर्याकर्षिणी</td><td><i>Dhairyākarṣiṇī</i></td><td>steadfastness</td></tr>
+    <tr><td class="dev">ए</td><td class="dev">स्मृत्याकर्षिणी</td><td><i>Smṛtyākarṣiṇī</i></td><td>memory</td></tr>
+    <tr><td class="dev">ऐ</td><td class="dev">नामाकर्षिणी</td><td><i>Nāmākarṣiṇī</i></td><td>name</td></tr>
+    <tr><td class="dev">ओ</td><td class="dev">बीजाकर्षिणी</td><td><i>Bījākarṣiṇī</i></td><td>seed</td></tr>
+    <tr><td class="dev">औ</td><td class="dev">आत्माकर्षिणी</td><td><i>Ātmākarṣiṇī</i></td><td>self</td></tr>
+    <tr><td class="dev">अं</td><td class="dev">अमृताकर्षिणी</td><td><i>Amṛtākarṣiṇī</i></td><td>nectar / immortality</td></tr>
+    <tr><td class="dev">अः</td><td class="dev">शरीराकर्षिणी</td><td><i>Śarīrākarṣiṇī</i></td><td>body</td></tr>
+  </table>
+
+  <h3>Āvaraṇa 3 — the eight petals (Sarva-saṁkṣobhaṇa cakra)</h3>
+  <p>Eight goddesses of Anaṅga — "the bodiless one," i.e. Kāma, god of love. They govern the
+  stirring (<i>kṣobha</i>) that sets creation in motion. Several are legible on the plate's
+  inner petals:</p>
+  <div class="namelist">
+    <span class="n"><span class="dev">अनङ्गकुसुमा</span> <i>Anaṅga-kusumā</i> (love's flower)</span><span class="sep">·</span>
+    <span class="n"><span class="dev">अनङ्गमेखला</span> <i>Anaṅga-mekhalā</i> (love's girdle)</span><span class="sep">·</span>
+    <span class="n"><span class="dev">अनङ्गमदना</span> <i>Anaṅga-madanā</i> (love's intoxication)</span><span class="sep">·</span>
+    <span class="n"><span class="dev">अनङ्गमदनातुरा</span> <i>Anaṅga-madanāturā</i> (love-sick)</span><span class="sep">·</span>
+    <span class="n"><span class="dev">अनङ्गरेखा</span> <i>Anaṅga-rekhā</i> (love's line)</span><span class="sep">·</span>
+    <span class="n"><span class="dev">अनङ्गवेगिनी</span> <i>Anaṅga-veginī</i> (love's rush)</span><span class="sep">·</span>
+    <span class="n"><span class="dev">अनङ्गाङ्कुशा</span> <i>Anaṅgāṅkuśā</i> (love's goad)</span><span class="sep">·</span>
+    <span class="n"><span class="dev">अनङ्गमालिनी</span> <i>Anaṅga-mālinī</i> (love's garland)</span>
+  </div>
+
+  <h3>Āvaraṇa 4 — the fourteen triangles (Sarva-saubhāgya-dāyaka cakra)</h3>
+  <p>Fourteen śaktis, traditionally mapped to the fourteen channels (<i>nāḍī</i>) of the
+  subtle body and the fourteen worlds:</p>
+  <div class="namelist">
+    <span class="n"><span class="dev">सर्वसंक्षोभिणी</span> <i>Sarva-saṁkṣobhiṇī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वविद्राविणी</span> <i>Sarva-vidrāviṇī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वाकर्षिणी</span> <i>Sarvākarṣiṇī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वाह्लादिनी</span> <i>Sarvāhlādinī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वसम्मोहिनी</span> <i>Sarva-sammohinī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वस्तम्भिनी</span> <i>Sarva-stambhinī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वजृम्भिणी</span> <i>Sarva-jṛmbhiṇī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्ववशंकरी</span> <i>Sarva-vaśaṅkarī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वरञ्जनी</span> <i>Sarva-rañjanī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वोन्मादिनी</span> <i>Sarvonmādinī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वार्थसाधिनी</span> <i>Sarvārtha-sādhinī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वसम्पत्तिपूरणी</span> <i>Sarva-sampatti-pūraṇī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वमन्त्रमयी</span> <i>Sarva-mantra-mayī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वद्वन्द्वक्षयंकरी</span> <i>Sarva-dvandva-kṣayaṅkarī</i></span>
+  </div>
+  <p class="note">The first three names repeat names from the mudrā list — that is correct
+  and a common source of confusion when matching engravings.</p>
+
+  <h3>Āvaraṇa 5 — the outer ten triangles (Sarvārtha-sādhaka cakra)</h3>
+  <div class="namelist">
+    <span class="n"><span class="dev">सर्वसिद्धिप्रदा</span> <i>Sarva-siddhi-pradā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वसम्पत्प्रदा</span> <i>Sarva-sampat-pradā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वप्रियंकरी</span> <i>Sarva-priyaṅkarī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वमङ्गलकारिणी</span> <i>Sarva-maṅgala-kāriṇī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वकामप्रदा</span> <i>Sarva-kāma-pradā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वदुःखविमोचनी</span> <i>Sarva-duḥkha-vimocanī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वमृत्युप्रशमनी</span> <i>Sarva-mṛtyu-praśamanī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वविघ्ननिवारिणी</span> <i>Sarva-vighna-nivāriṇī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वाङ्गसुन्दरी</span> <i>Sarvāṅga-sundarī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वसौभाग्यदायिनी</span> <i>Sarva-saubhāgya-dāyinī</i></span>
+  </div>
+
+  <h3>Āvaraṇa 6 — the inner ten triangles (Sarva-rakṣā-kara cakra)</h3>
+  <div class="namelist">
+    <span class="n"><span class="dev">सर्वज्ञा</span> <i>Sarvajñā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वशक्तिः</span> <i>Sarva-śakti</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वैश्वर्यप्रदा</span> <i>Sarvaiśvarya-pradā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वज्ञानमयी</span> <i>Sarva-jñāna-mayī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वव्याधिविनाशिनी</span> <i>Sarva-vyādhi-vināśinī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वाधारस्वरूपा</span> <i>Sarvādhāra-svarūpā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वपापहरा</span> <i>Sarva-pāpa-harā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वानन्दमयी</span> <i>Sarvānanda-mayī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वरक्षास्वरूपिणी</span> <i>Sarva-rakṣā-svarūpiṇī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वेप्सितफलप्रदा</span> <i>Sarvepsita-phala-pradā</i></span>
+  </div>
+
+  <h3>Āvaraṇa 7 — the eight triangles (Sarva-roga-hara cakra)</h3>
+  <p>The eight <b>Vāg-devatās</b>, goddesses of speech — in tradition, the very authors of
+  the Lalitā Sahasranāma. "Removing all disease" here includes the root disease,
+  ignorance:</p>
+  <div class="namelist">
+    <span class="n"><span class="dev">वशिनी</span> <i>Vaśinī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">कामेश्वरी</span> <i>Kāmeśvarī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">मोदिनी</span> <i>Modinī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">विमला</span> <i>Vimalā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">अरुणा</span> <i>Aruṇā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">जयिनी</span> <i>Jayinī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वेश्वरी</span> <i>Sarveśvarī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">कौलिनी</span> <i>Kaulinī</i></span>
+  </div>
+
+  <h3>Āvaraṇa 8 — the central triangle (Sarva-siddhi-prada cakra)</h3>
+  <p>The innermost downward triangle is the goddess's immediate presence. Its three corners
+  hold three great śaktis:</p>
+  <div class="namelist">
+    <span class="n"><span class="dev">कामेश्वरी</span> <i>Kāmeśvarī</i> (corner of <i>agni</i>, fire)</span><span class="sep">·</span>
+    <span class="n"><span class="dev">वज्रेश्वरी</span> <i>Vajreśvarī</i> (corner of <i>sūrya</i>, sun)</span><span class="sep">·</span>
+    <span class="n"><span class="dev">भगमालिनी</span> <i>Bhagamālinī</i> (corner of <i>soma</i>, moon)</span>
+  </div>
+  <p>The three sides are also read as the three pīṭhas (seats) of the goddess — Kāmarūpa,
+  Pūrṇagiri, Jālandhara — and the triangle as her <i>kāmakalā</i>, the creative desire of
+  consciousness. Around this zone the plate engraves Lalitā's four weapons as śaktis:
+  <span class="dev">धनुःशक्तिः</span> (the sugarcane bow), <span class="dev">बाणशक्तिः</span>
+  (the five flower arrows), <span class="dev">पाशशक्तिः</span> (the noose), and
+  <span class="dev">अङ्कुशशक्तिः</span> (the goad) — the bow and noose labels are clearly
+  legible just above the bindu on this plate.</p>
+
+  <h3>Āvaraṇa 9 — the bindu (Sarvānanda-maya cakra)</h3>
+  <p>The point at the center is <b>Mahātripurasundarī</b> herself, seated in union with
+  <b>Kāmeśvara</b> (Śiva as lord of desire). It is the <i>sarvānandamaya cakra</i>, "formed
+  of all bliss" — the undivided source that the eight rings progressively veil, and the
+  destination of the inward journey. On this plate the bindu is engraved as a small circle
+  flanked by the bīja syllables <span class="dev">क्लीं</span> (<i>klīṁ</i>) and
+  <span class="dev">सौः</span> (<i>sauḥ</i>).</p>
+
+  <h2 id="court">5 · The goddess and her court</h2>
+  <p><b>Lalitā Tripurasundarī</b> (<span class="dev">ललिता त्रिपुरसुन्दरी</span>) — "the
+  playful one, beautiful in the three cities" — is the supreme deity of Śrī Vidyā, worshipped
+  as the highest form of the Great Goddess. "Three cities" is read many ways: the three
+  worlds, the three states (waking, dream, deep sleep), the three guṇas, the three bodies.
+  She holds four emblems: sugarcane bow (the mind), five flower arrows (the five senses),
+  noose (attachment), goad (aversion/impulsion). The dhyāna verse engraved across this
+  plate's two bottom corners (§6) describes her for visualization.</p>
+  <p><b>The fifteen (sixteen) Nityās.</b> The lunar days (<i>tithis</i>) of the waxing
+  fortnight are fifteen goddesses, the <b>nityās</b> ("eternals"), with Lalitā herself as
+  the sixteenth (<i>ṣoḍaśī</i>) — the full moon beyond change. They are often engraved
+  around the central rings of a Śrī Yantra, and a numbered list on the left side of this
+  plate appears to enumerate deities in this family:</p>
+  <div class="namelist">
+    <span class="n"><span class="dev">कामेश्वरी</span> <i>Kāmeśvarī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">भगमालिनी</span> <i>Bhagamālinī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">नित्यक्लिन्ना</span> <i>Nityaklinnā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">भेरुण्डा</span> <i>Bheruṇḍā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">वह्निवासिनी</span> <i>Vahnivāsinī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">महावज्रेश्वरी</span> <i>Mahāvajreśvarī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">शिवदूती</span> <i>Śivadūtī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">त्वरिता</span> <i>Tvaritā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">कुलसुन्दरी</span> <i>Kulasundarī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">नित्या</span> <i>Nityā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">नीलपताका</span> <i>Nīlapatākā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">विजया</span> <i>Vijayā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">सर्वमङ्गला</span> <i>Sarvamaṅgalā</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">ज्वालामालिनी</span> <i>Jvālāmālinī</i></span><span class="sep">·</span>
+    <span class="n"><span class="dev">चित्रा</span> <i>Citrā</i></span>
+  </div>
+
+  <h2 id="mantras">6 · The mantras</h2>
+
+  <h3>Pañcadaśī — the fifteen-syllable vidyā</h3>
+  <p>The root mantra of the tradition, so central it is simply called <b>the Vidyā</b>.
+  Fifteen syllables in three groups (<i>kūṭas</i>):</p>
+  <table>
+    <tr><th>kūṭa</th><th>syllables</th><th>IAST</th><th>aspect</th></tr>
+    <tr><td><span class="dev">वाग्भवकूट</span> Vāgbhava (speech)</td><td class="dev">क ए ई ल ह्रीं</td><td><i>ka e ī la hrīṁ</i></td><td>head of the goddess</td></tr>
+    <tr><td><span class="dev">कामराजकूट</span> Kāmarāja (desire)</td><td class="dev">ह स क ह ल ह्रीं</td><td><i>ha sa ka ha la hrīṁ</i></td><td>torso</td></tr>
+    <tr><td><span class="dev">शक्तिकूट</span> Śakti (power)</td><td class="dev">स क ल ह्रीं</td><td><i>sa ka la hrīṁ</i></td><td>base</td></tr>
+  </table>
+  <p>Adding the secret sixteenth syllable <span class="dev">श्रीं</span> (<i>śrīṁ</i>) makes
+  it the <b>Ṣoḍaśī</b> mantra, reserved for initiates. The syllables are held to be the
+  sound-body of the goddess exactly as the yantra is her form-body — mantra, yantra, and
+  devī are one thing in three registers. Fragments of these kūṭa syllables (and related
+  bījas) are engraved in and around the central triangle of this plate.</p>
+
+  <h3>Bālā — the young-goddess mantra</h3>
+  <p><span class="dev">ऐं क्लीं सौः</span> (<i>aiṁ klīṁ sauḥ</i>) — the three-bīja mantra of
+  Bālā Tripurasundarī, the goddess as a nine-year-old girl; usually the first mantra given
+  to a Śrī Vidyā student. All three syllables appear around this plate's center;
+  <span class="dev">ऐं ह्रीं श्रीं</span> together are engraved below the yantra near the
+  bottom gate.</p>
+
+  <h3>The principal bīja syllables</h3>
+  <table>
+    <tr><th>bīja</th><th>IAST</th><th>called</th><th>resonance</th></tr>
+    <tr><td class="dev">ॐ</td><td><i>oṁ</i></td><td>praṇava</td><td>the absolute</td></tr>
+    <tr><td class="dev">ऐं</td><td><i>aiṁ</i></td><td>vāgbhava-bīja</td><td>speech, wisdom, Sarasvatī</td></tr>
+    <tr><td class="dev">ह्रीं</td><td><i>hrīṁ</i></td><td>māyā-bīja / hṛllekhā</td><td>the goddess's creative power, Bhuvaneśvarī</td></tr>
+    <tr><td class="dev">श्रीं</td><td><i>śrīṁ</i></td><td>lakṣmī-bīja</td><td>abundance, auspiciousness, Lakṣmī</td></tr>
+    <tr><td class="dev">क्लीं</td><td><i>klīṁ</i></td><td>kāma-bīja</td><td>desire, attraction</td></tr>
+    <tr><td class="dev">सौः</td><td><i>sauḥ</i></td><td>parā-bīja</td><td>the supreme, Parāśakti</td></tr>
+    <tr><td class="dev">हूं</td><td><i>hūṁ</i></td><td>kūrca-bīja</td><td>protective force</td></tr>
+  </table>
+
+  <h3>Engraved on this plate (transcribed and traced in the app)</h3>
+  <ul>
+    <li><b>Title:</b> <span class="dev">श्री यन्त्रम्</span> <i>śrī yantram</i> (top left).</li>
+    <li><b>Benedictions</b> (top center): salutations culminating in
+    …<span class="dev">राजराजेश्वर्यै नमः</span> "salutation to the Empress of Kings"
+    (Rājarājeśvarī, a beloved name of Lalitā).</li>
+    <li><b>The structure verse</b> (§2), engraved twice.</li>
+    <li><b>Salutations to the nine cakreśvarīs</b> (top right block).</li>
+    <li><b>The dhyāna-śloka of Tripurasundarī</b>, split across the two bottom corners — the
+    verse one recites to build her image before worship:</li>
+  </ul>
+  <div class="verse">
+    <span class="dev">सिन्दूरारुणविग्रहां त्रिनयनां माणिक्यमौलिस्फुरत्-<br>
+    तारानायकशेखरां स्मितमुखीमापीनवक्षोरुहाम् ।<br>
+    पाणिभ्यामलिपूर्णरत्नचषकं रक्तोत्पलं बिभ्रतीं<br>
+    सौम्यां रत्नघटस्थरक्तचरणां ध्यायेत्परामम्बिकाम् ॥</span>
+    <span class="trans">"Her form red as vermilion, three-eyed, ruby diadem gleaming,
+    crested with the moon, lord of stars, her face smiling, her bosom full; holding in her
+    hands a jeweled cup brimming with nectar and a red lotus; gentle, her red feet on a pot
+    of jewels — thus should one meditate on the supreme Mother."</span>
+  </div>
+  <ul>
+    <li><b>The Mahālakṣmī mantra</b> as the closing line along the bottom:</li>
+  </ul>
+  <div class="verse">
+    <span class="dev">ॐ श्रीं ह्रीं श्रीं कमले कमलालये प्रसीद प्रसीद श्रीं ह्रीं श्रीं महालक्ष्म्यै नमः ॥</span>
+    <span class="iast">oṁ śrīṁ hrīṁ śrīṁ kamale kamalālaye prasīda prasīda śrīṁ hrīṁ śrīṁ
+    mahālakṣmyai namaḥ</span>
+    <span class="trans">"O Kamalā, dweller in the lotus, be gracious, be gracious —
+    salutations to Mahālakṣmī."</span>
+  </div>
+  <ul>
+    <li><b>A svastika border</b> frames the whole plate — in this context purely the ancient
+    Indian auspice mark (<i>svasti</i>, "well-being"), guarding the perimeter the way the
+    bhūpura guards the yantra.</li>
+  </ul>
+
+  <h2 id="worship">7 · How it is worshipped</h2>
+  <p>The classical rite is the <b>Navāvaraṇa Pūjā</b> (<span class="dev">श्रीचक्रपूजा</span>):
+  the worshipper honors each enclosure in sequence, reciting the name of every yoginī with
+  offerings, showing the āvaraṇa's mudrā, honoring its cakreśvarī, and only then stepping
+  inward — nine thresholds between the everyday world and the bindu. The <b>Khaḍgamālā
+  Stotra</b> ("garland of the sword") is effectively this same journey compressed into a
+  single recitation: it strings together the names of every deity of every ring in order.
+  If you want one text that "reads" the yantra aloud, region by region, it is the
+  Khaḍgamālā — an ideal cross-check while annotating.</p>
+  <p>Three ritual "orders" (<i>krama</i>) govern direction of travel:</p>
+  <ul>
+    <li><b>sṛṣṭi-krama</b> (creation): center → outward, the cosmos unfolding;</li>
+    <li><b>sthiti-krama</b> (maintenance): honoring the balance;</li>
+    <li><b>saṁhāra-krama</b> (dissolution): rim → center, the practitioner's path — the most
+    common order for the pūjā, ending at the bindu.</li>
+  </ul>
+  <p>The <b>Bhāvanopaniṣad</b> teaches a fully internalized worship: each āvaraṇa is
+  contemplated as a layer of oneself (the nine enclosures as nine sheaths of the body-mind;
+  the fifteen nityās as the fifteen days of the moon and breaths of the day), so the entire
+  rite can be performed in awareness alone.</p>
+  <p>Practical conventions for a plate like this: installed facing east (or the worshipper
+  facing east), consecrated by prāṇa-pratiṣṭhā, kept on the altar, never treated as decor
+  once consecrated; offerings of kumkum (vermilion) are typical — many old copper yantras
+  carry red residue in the grooves.</p>
+
+  <h2 id="sources">8 · Where it comes from</h2>
+  <p>Śrī Vidyā crystallized as a textual tradition roughly in the 8th–12th centuries CE,
+  with roots older. Its anchor scriptures:</p>
+  <ul>
+    <li><b>Vāmakeśvara Tantra</b> — comprising the <i>Nityāṣoḍaśikārṇava</i> ("ocean of the
+    sixteen nityās") and the <b>Yoginīhṛdaya</b> ("heart of the yoginī"), the single most
+    important source for the meaning of the cakra's parts.</li>
+    <li><b>Tantrarāja Tantra</b> — encyclopedic ritual manual.</li>
+    <li><b>Lalitā Sahasranāma</b> and <b>Lalitā Triśatī</b> (from the Brahmāṇḍa Purāṇa) —
+    the thousand and three hundred names; the Sahasranāma's frame-story has the Vāg-devatās
+    of āvaraṇa 7 as its composers.</li>
+    <li><b>Saundaryalaharī</b> ("wave of beauty," attributed to Ādi Śaṅkara) — hundred verses
+    on the goddess; v. 11 describes the yantra.</li>
+    <li><b>Bhāvanopaniṣad</b> — the internalization manual.</li>
+    <li><b>Khaḍgamālā Stotra</b> — the deity-roll of the nine āvaraṇas.</li>
+  </ul>
+  <p>The tradition remains fully alive: the Śaṅkara maṭhas (Śṛṅgeri, Kāñcī) maintain Śrī
+  Cakra worship — Kāmākṣī of Kāñcīpuram is worshipped primarily <i>as</i> the Śrī Cakra
+  installed before her image — and household navāvaraṇa pūjā continues throughout South
+  India and Nepal. Devanagari-lettered plates like this one are typical of North Indian /
+  Nepalese workshops (South Indian plates more often use Telugu, Kannada or Grantha
+  letters).</p>
+
+  <h2 id="glossary">9 · Glossary</h2>
+  <table>
+    <tr><th>term</th><th>Devanagari</th><th>meaning</th></tr>
+    <tr><td>yantra</td><td class="dev">यन्त्र</td><td>instrument; sacred diagram as deity-body</td></tr>
+    <tr><td>cakra</td><td class="dev">चक्र</td><td>wheel; the diagram as a whole</td></tr>
+    <tr><td>bindu</td><td class="dev">बिन्दु</td><td>the central point; undivided source</td></tr>
+    <tr><td>trikoṇa</td><td class="dev">त्रिकोण</td><td>triangle</td></tr>
+    <tr><td>āvaraṇa</td><td class="dev">आवरण</td><td>enclosure, veil; one of the nine rings</td></tr>
+    <tr><td>cakreśvarī</td><td class="dev">चक्रेश्वरी</td><td>presiding goddess of a ring</td></tr>
+    <tr><td>yoginī</td><td class="dev">योगिनी</td><td>resident goddess of a ring</td></tr>
+    <tr><td>bīja</td><td class="dev">बीज</td><td>seed-syllable</td></tr>
+    <tr><td>vidyā</td><td class="dev">विद्या</td><td>wisdom; a goddess mantra (esp. the pañcadaśī)</td></tr>
+    <tr><td>kūṭa</td><td class="dev">कूट</td><td>peak; a group of mantra syllables</td></tr>
+    <tr><td>nityā</td><td class="dev">नित्या</td><td>"eternal"; one of the 15 lunar-day goddesses</td></tr>
+    <tr><td>mātṛkā</td><td class="dev">मातृका</td><td>mother-goddess; also "letter of the alphabet"</td></tr>
+    <tr><td>mudrā</td><td class="dev">मुद्रा</td><td>ritual gesture; its goddess</td></tr>
+    <tr><td>siddhi</td><td class="dev">सिद्धि</td><td>attainment, power</td></tr>
+    <tr><td>bhūpura</td><td class="dev">भूपुर</td><td>the outer square "earth-city"</td></tr>
+    <tr><td>pīṭha</td><td class="dev">पीठ</td><td>seat, sacred site of the goddess</td></tr>
+    <tr><td>dhyāna</td><td class="dev">ध्यान</td><td>meditation; a visualization verse</td></tr>
+    <tr><td>pūjā</td><td class="dev">पूजा</td><td>worship</td></tr>
+    <tr><td>prāṇa-pratiṣṭhā</td><td class="dev">प्राणप्रतिष्ठा</td><td>consecration, "installing the breath"</td></tr>
+    <tr><td>meru</td><td class="dev">मेरु</td><td>the world-mountain; 3-D form of the yantra</td></tr>
+    <tr><td>krama</td><td class="dev">क्रम</td><td>ritual order/sequence</td></tr>
+  </table>
+
+  <h2 id="crosschecks">10 · Annotation cross-checks</h2>
+  <p>While tracing regions in the viewer, keep these in mind:</p>
+  <ol>
+    <li><b>Count before you read.</b> If a ring should have 14 names and you find 13, a name
+    is hiding in damage or a ligature — the lists above tell you what to look for.</li>
+    <li><b>Repeated names are real.</b> Saṁkṣobhiṇī / Vidrāviṇī / Ākarṣiṇī appear in
+    <i>both</i> the mudrā list (bhūpura) and the 14-triangle ring.</li>
+    <li><b>Numbers on the plate are your friends.</b> The engraver numbered many names
+    (<span class="dev">१, २, ३</span>…) — the numeral tells you which ring and position,
+    even when the name itself is hard to read.</li>
+    <li><b>Trust the plate over the list</b> for spelling; note variants in the region's
+    explanation field.</li>
+    <li>The vowels on the 16 petals and the bījas near the bindu are the likeliest places
+    for worn or stylized letterforms — the <a href="devanagari.html">letter reference</a>
+    has the tables for decoding them.</li>
+  </ol>
+</main>
+</body>
+</html>

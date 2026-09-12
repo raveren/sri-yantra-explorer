@@ -1,0 +1,2952 @@
+{
+  "meta": {
+    "image": {
+      "width": 11977,
+      "height": 12143
+    },
+    "source": "sri-yantra-v4.jpg (copper plate scan)",
+    "saved": 1789241351261,
+    "version": 2,
+    "languages": [
+      {
+        "code": "en",
+        "label": "English"
+      },
+      {
+        "code": "lt",
+        "label": "Lietuvių"
+      }
+    ]
+  },
+  "groups": {
+    "avarana-1": {
+      "label": {
+        "en": "Āvaraṇa 1",
+        "lt": "Āvaraṇa 1 · Bhūpura — Trailokya-mohana"
+      },
+      "color": "#e05c5c",
+      "content": {
+        "devanagari": " भूपुर — त्रैलोक्यमोहन",
+        "iast": " Bhūpura — Trailokya-mohana",
+        "translation": {},
+        "explanation": {
+          "en": "# Āvaraṇa 1 · Bhūpura — Trailokya-mohana\n\nThe square rampart is the boundary between ordinary space and sacred space — \"earth-city,\" the manifest world. Its three lines are worshipped as three distinct populations, which is why bhūpura engravings are so text-dense:\n\nOuter line — the ten siddhis (सिद्धि, attainments), engraved near the gates on this plate (you can see अणिमासिद्धिः at the bottom gate):"
+        }
+      },
+      "images": []
+    },
+    "avarana-2": {
+      "label": {
+        "en": "Āvaraṇa 2",
+        "lt": "Āvaraṇa 2 · 16 žiedlapių — Sarvāśā-paripūraka"
+      },
+      "color": "#e69138",
+      "content": {
+        "devanagari": "सर्वाशापरिपूरक",
+        "iast": "Sarvāśā-paripūraka",
+        "translation": {},
+        "explanation": {
+          "en": "# Āvaraṇa 2 · 16 petals — Sarvāśā-paripūraka"
+        }
+      },
+      "images": []
+    },
+    "avarana-3": {
+      "label": {
+        "en": "Āvaraṇa 3",
+        "lt": "Āvaraṇa 3 · 8 žiedlapiai — Sarva-saṁkṣobhaṇa"
+      },
+      "color": "#e2c53a",
+      "content": {
+        "devanagari": "सर्वसंक्षोभण",
+        "iast": "Sarva-saṁkṣobhaṇa",
+        "translation": {},
+        "explanation": {
+          "en": "# Āvaraṇa 3 · 8 petals — Sarva-saṁkṣobhaṇa"
+        }
+      },
+      "images": []
+    },
+    "avarana-4": {
+      "label": {
+        "en": "Āvaraṇa 4",
+        "lt": "Āvaraṇa 4 · 14 trikampių — Sarva-saubhāgya-dāyaka"
+      },
+      "color": "#7fbf4d",
+      "content": {
+        "devanagari": "सर्वसौभाग्यदायक",
+        "iast": "Sarva-saubhāgya-dāyaka",
+        "translation": {},
+        "explanation": {
+          "en": "# Āvaraṇa 4 · 14 triangles — Sarva-saubhāgya-dāyaka"
+        }
+      },
+      "images": []
+    },
+    "avarana-5": {
+      "label": {
+        "en": "Āvaraṇa 5",
+        "lt": "Āvaraṇa 5 · 10 išorinių trikampių — Sarvārtha-sādhaka"
+      },
+      "color": "#3dbfad",
+      "content": {
+        "devanagari": "सर्वार्थसाधक",
+        "iast": "Sarvārtha-sādhaka",
+        "translation": {},
+        "explanation": {
+          "en": "# Āvaraṇa 5 · outer 10 — Sarvārtha-sādhaka"
+        }
+      },
+      "images": []
+    },
+    "avarana-6": {
+      "label": {
+        "en": "Āvaraṇa 6",
+        "lt": "Āvaraṇa 6 · 10 vidinių trikampių — Sarva-rakṣā-kara"
+      },
+      "color": "#4d9fe6",
+      "content": {
+        "devanagari": "सर्वरक्षाकर",
+        "iast": "Sarva-rakṣā-kara",
+        "translation": {},
+        "explanation": {
+          "en": "# Āvaraṇa 6 · inner 10 triangles — Sarva-rakṣā-kara"
+        }
+      },
+      "images": []
+    },
+    "avarana-7": {
+      "label": {
+        "en": "Āvaraṇa 7",
+        "lt": "Āvaraṇa 7 · 8 trikampiai — Sarva-roga-hara"
+      },
+      "color": "#8d75e8",
+      "content": {
+        "devanagari": "सर्वरोगहर",
+        "iast": "Sarva-roga-hara",
+        "translation": {},
+        "explanation": {
+          "en": "# Āvaraṇa 7 · 8 triangles — Sarva-roga-hara"
+        }
+      },
+      "images": []
+    },
+    "avarana-8": {
+      "label": {
+        "en": "Āvaraṇa 8",
+        "lt": "Āvaraṇa 8 · centrinis trikampis — Sarva-siddhi-prada"
+      },
+      "color": "#d45cc0",
+      "content": {
+        "devanagari": "सर्वसिद्धिप्रद",
+        "iast": "Sarva-siddhi-prada",
+        "translation": {},
+        "explanation": {
+          "en": "# Āvaraṇa 8 · central triangle — Sarva-siddhi-prada"
+        }
+      },
+      "images": []
+    },
+    "avarana-9": {
+      "label": {
+        "en": "Āvaraṇa 9",
+        "lt": "Āvaraṇa 9 · bindu — Sarvānanda-maya"
+      },
+      "color": "#f5f0e6",
+      "content": {
+        "devanagari": "सर्वानन्दमय",
+        "iast": "Sarvānanda-maya",
+        "translation": {},
+        "explanation": {
+          "en": "# Āvaraṇa 9 · bindu — Sarvānanda-maya"
+        }
+      },
+      "images": []
+    },
+    "inscription": {
+      "label": {
+        "en": "Inscriptions & ślokas",
+        "lt": "Įrašai ir ślokos"
+      },
+      "color": "#b9c0c9",
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": []
+    },
+    "other": {
+      "label": {
+        "en": "Other",
+        "lt": "Kita"
+      },
+      "color": "#9a9a9a",
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": []
+    }
+  },
+  "regions": [
+    {
+      "id": "r-001",
+      "label": {
+        "en": "Title — Śrī Yantram",
+        "lt": ""
+      },
+      "group": "inscription",
+      "polygon": [
+        [
+          795,
+          529
+        ],
+        [
+          3685,
+          529
+        ],
+        [
+          3706,
+          1509
+        ],
+        [
+          795,
+          1469
+        ]
+      ],
+      "content": {
+        "devanagari": "श्री यन्त्रम्",
+        "iast": "śrī yantram",
+        "translation": {
+          "en": "The Śrī Yantra",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "The engraved title of the plate. \"Śrī\" is both an honorific and a name of Lakṣmī / Tripurasundarī; \"yantram\" means instrument or device — a geometric support for meditation and worship.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-001-20260829-115802-4d6a69.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-002",
+      "label": {
+        "en": "Mahālakṣmī mantra (bottom line)",
+        "lt": ""
+      },
+      "group": "inscription",
+      "polygon": [
+        [
+          1758,
+          11078
+        ],
+        [
+          10372,
+          11198
+        ],
+        [
+          10368,
+          11495
+        ],
+        [
+          1751,
+          11419
+        ]
+      ],
+      "content": {
+        "devanagari": "ॐ श्रीं ह्रीं श्रीं कमले कमलालये प्रसीद प्रसीद श्रीं ह्रीं श्रीं महालक्ष्म्यै नमः ॥",
+        "iast": "oṁ śrīṁ hrīṁ śrīṁ kamale kamalālaye prasīda prasīda śrīṁ hrīṁ śrīṁ mahālakṣmyai namaḥ",
+        "translation": {
+          "en": "Oṁ. Śrīṁ Hrīṁ Śrīṁ. O Kamalā, dweller in the lotus, be gracious, be gracious. Śrīṁ Hrīṁ Śrīṁ. Salutations to Mahālakṣmī.",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "The Mahālakṣmī mantra, engraved as the closing dedication of the plate. It is built around the bīja (seed) syllables śrīṁ (Lakṣmī) and hrīṁ (Bhuvaneśvarī / the creative māyā-śakti), addressed to the goddess as Kamalā, \"she of the lotus.\" Traditionally recited for abundance and grace.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-002-20260829-115803-629d5c.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-003",
+      "label": {
+        "en": "Dhyāna śloka, first half (bottom left)",
+        "lt": ""
+      },
+      "group": "inscription",
+      "polygon": [
+        [
+          915,
+          10099
+        ],
+        [
+          3829,
+          10164
+        ],
+        [
+          3800,
+          11071
+        ],
+        [
+          906,
+          11035
+        ]
+      ],
+      "content": {
+        "devanagari": "सिन्दूरारुणविग्रहां त्रिनयनां माणिक्यमौलिस्फुरत्-\nतारानायकशेखरां स्मितमुखीमापीनवक्षोरुहाम् ।",
+        "iast": "sindūrāruṇa-vigrahāṁ trinayanāṁ māṇikya-mauli-sphurat-\ntārā-nāyaka-śekharāṁ smita-mukhīm āpīna-vakṣoruhām ।",
+        "translation": {
+          "en": "Her form red as vermilion, three-eyed, her ruby diadem gleaming, crested with the moon — lord of the stars — her face smiling, her bosom full…",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "The first half of the classic dhyāna-śloka (visualization verse) of Tripurasundarī, the deity of the Śrī Yantra. The verse continues in the bottom-right corner of the plate. Reciting it, the practitioner builds the goddess's image in the mind before worship of the yantra.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-003-20260829-115803-66b83e.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-004",
+      "label": {
+        "en": "Dhyāna śloka, second half (bottom right)",
+        "lt": ""
+      },
+      "group": "inscription",
+      "polygon": [
+        [
+          8101,
+          10226
+        ],
+        [
+          11033,
+          10247
+        ],
+        [
+          11035,
+          11187
+        ],
+        [
+          8094,
+          11143
+        ]
+      ],
+      "content": {
+        "devanagari": "पाणिभ्यामलिपूर्णरत्नचषकं रक्तोत्पलं बिभ्रतीं\nसौम्यां रत्नघटस्थरक्तचरणां ध्यायेत्परामम्बिकाम् ॥",
+        "iast": "pāṇibhyām alipūrṇa-ratna-caṣakaṁ raktotpalaṁ bibhratīṁ\nsaumyāṁ ratna-ghaṭa-stha-rakta-caraṇāṁ dhyāyet parām ambikām ॥",
+        "translation": {
+          "en": "…holding in her two hands a jeweled cup brimming with nectar and a red lotus, gentle, her red feet resting upon a pot of jewels — thus should one meditate on the supreme Mother.",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "The second half of the Tripurasundarī dhyāna-śloka begun in the bottom-left corner. Together the two halves form one verse: the complete mental image of the goddess to be held while contemplating the yantra.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-004-20260829-115803-5660eb.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-005",
+      "label": {
+        "en": "Bindu — the central point",
+        "lt": ""
+      },
+      "group": "avarana-9",
+      "polygon": [
+        [
+          5967,
+          5863
+        ],
+        [
+          6002,
+          5851
+        ],
+        [
+          6038,
+          5864
+        ],
+        [
+          6047,
+          5901
+        ],
+        [
+          6036,
+          5928
+        ],
+        [
+          6003,
+          5943
+        ],
+        [
+          5966,
+          5926
+        ],
+        [
+          5952,
+          5898
+        ]
+      ],
+      "content": {
+        "devanagari": "बिन्दु",
+        "iast": "bindu",
+        "translation": {
+          "en": "The point",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "The ninth and innermost āvaraṇa, the Sarvānanda-maya cakra — \"formed of all bliss.\" The bindu is the seat of Mahātripurasundarī herself, the undivided source from which the nine interlocking triangles and all outer enclosures emanate. In śrī-vidyā practice the eye is led inward through the āvaraṇas to rest here. On this plate the bīja syllables klīṁ and sauḥ are engraved beside the bindu.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-005-20260829-115803-1cf6a0.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-006",
+      "label": {
+        "en": "asd",
+        "lt": ""
+      },
+      "group": "avarana-6",
+      "polygon": [
+        [
+          5995,
+          5160
+        ],
+        [
+          6173,
+          5449
+        ],
+        [
+          5796,
+          5446
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {
+          "en": "",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-006-20260829-115803-d17094.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-007",
+      "label": {
+        "en": "",
+        "lt": ""
+      },
+      "group": "inscription",
+      "polygon": [
+        [
+          984,
+          2697
+        ],
+        [
+          2233,
+          1520
+        ],
+        [
+          1774,
+          1091
+        ],
+        [
+          533,
+          2252
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {
+          "en": "",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-007-20260829-115803-c167eb.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-008",
+      "label": {
+        "en": "",
+        "lt": ""
+      },
+      "group": "inscription",
+      "polygon": [
+        [
+          5873,
+          5686
+        ],
+        [
+          5800,
+          5798
+        ],
+        [
+          6167,
+          5806
+        ],
+        [
+          6093,
+          5687
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {
+          "en": "",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-008-20260829-115803-d13c5d.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-009",
+      "label": {
+        "en": "",
+        "lt": ""
+      },
+      "group": "avarana-7",
+      "polygon": [
+        [
+          5828,
+          5683
+        ],
+        [
+          5772,
+          5778
+        ],
+        [
+          5693,
+          5680
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {
+          "en": "",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-009-20260829-115803-363897.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-010",
+      "label": {
+        "en": "",
+        "lt": ""
+      },
+      "group": "avarana-7",
+      "polygon": [
+        [
+          6131,
+          5686
+        ],
+        [
+          6210,
+          5809
+        ],
+        [
+          6305,
+          5691
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {
+          "en": "",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-010-20260829-115803-371d1d.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-011",
+      "label": {
+        "en": "",
+        "lt": ""
+      },
+      "group": "avarana-6",
+      "polygon": [
+        [
+          6256,
+          5809
+        ],
+        [
+          6342,
+          5705
+        ],
+        [
+          6408,
+          5809
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {
+          "en": "",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-011-20260829-115803-25b7dd.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-012",
+      "label": {},
+      "group": "inscription",
+      "polygon": [
+        [
+          6018,
+          5490
+        ],
+        [
+          6208,
+          5496
+        ],
+        [
+          6305,
+          5645
+        ],
+        [
+          6108,
+          5643
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-012-20260829-115803-31b3c5.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-013",
+      "label": {},
+      "group": "avarana-7",
+      "polygon": [
+        [
+          6066,
+          5645
+        ],
+        [
+          5988,
+          5510
+        ],
+        [
+          5895,
+          5638
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-013-20260829-115803-84567f.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-014",
+      "label": {},
+      "group": "inscription",
+      "polygon": [
+        [
+          5949,
+          5495
+        ],
+        [
+          5849,
+          5642
+        ],
+        [
+          5657,
+          5642
+        ],
+        [
+          5764,
+          5483
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-014-20260829-115803-355109.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-015",
+      "label": {},
+      "group": "avarana-6",
+      "polygon": [
+        [
+          6255,
+          5500
+        ],
+        [
+          6346,
+          5643
+        ],
+        [
+          6469,
+          5502
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-015-20260829-115803-5452dc.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-016",
+      "label": {},
+      "group": "inscription",
+      "polygon": [
+        [
+          6386,
+          5652
+        ],
+        [
+          6495,
+          5519
+        ],
+        [
+          6580,
+          5654
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-016-20260829-115803-50cc5b.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-017",
+      "label": {},
+      "group": "avarana-5",
+      "polygon": [
+        [
+          6522,
+          5507
+        ],
+        [
+          7022,
+          5516
+        ],
+        [
+          6761,
+          5890
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-017-20260829-115547-fdcd01.jpg",
+          "rotation": 90,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-018",
+      "label": {},
+      "group": "inscription",
+      "polygon": [
+        [
+          7055,
+          5534
+        ],
+        [
+          6801,
+          5912
+        ],
+        [
+          7047,
+          6313
+        ],
+        [
+          7366,
+          5930
+        ]
+      ],
+      "content": {
+        "devanagari": "क",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-018-20260829-115803-f686b4.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-019",
+      "label": {},
+      "group": "avarana-4",
+      "polygon": [
+        [
+          7094,
+          5514
+        ],
+        [
+          7393,
+          5887
+        ],
+        [
+          7719,
+          5526
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-019-20260829-115803-1d9554.jpg",
+          "rotation": 180,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-020",
+      "label": {},
+      "group": "avarana-4",
+      "polygon": [
+        [
+          6811,
+          5146
+        ],
+        [
+          7052,
+          5467
+        ],
+        [
+          7269,
+          5156
+        ]
+      ],
+      "content": {
+        "devanagari": "क्लीं म",
+        "iast": "klīṁ ma",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-020-20260829-115803-65ab75.jpg",
+          "rotation": 90,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-021",
+      "label": {
+        "en": "ध"
+      },
+      "group": "inscription",
+      "polygon": [
+        [
+          6537,
+          5462
+        ],
+        [
+          6778,
+          5171
+        ],
+        [
+          7010,
+          5467
+        ]
+      ],
+      "content": {
+        "devanagari": "ध",
+        "iast": "gha",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-021-20260829-115803-e85573.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-022",
+      "label": {},
+      "group": "avarana-4",
+      "polygon": [
+        [
+          7394,
+          5961
+        ],
+        [
+          7695,
+          6338
+        ],
+        [
+          7093,
+          6327
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-022-20260829-115803-253942.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-023",
+      "label": {},
+      "group": "inscription",
+      "polygon": [
+        [
+          7441,
+          5929
+        ],
+        [
+          7774,
+          5524
+        ],
+        [
+          7824,
+          5907
+        ],
+        [
+          7763,
+          6305
+        ]
+      ],
+      "content": {
+        "devanagari": "दा",
+        "iast": "dā",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-023-20260829-115558-857b8b.jpg",
+          "rotation": 270,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-024",
+      "label": {},
+      "group": "inscription",
+      "polygon": [
+        [
+          7290,
+          4743
+        ],
+        [
+          7064,
+          4908
+        ],
+        [
+          7222,
+          5115
+        ],
+        [
+          7455,
+          4990
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-024-20260829-115803-06e056.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-025",
+      "label": {},
+      "group": "inscription",
+      "polygon": [
+        [
+          7326,
+          5201
+        ],
+        [
+          7570,
+          5105
+        ],
+        [
+          7677,
+          5381
+        ],
+        [
+          7430,
+          5467
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-025-20260829-115553-636709.jpg",
+          "rotation": 270,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-026",
+      "label": {},
+      "group": "avarana-4",
+      "polygon": [
+        [
+          6781,
+          5098
+        ],
+        [
+          7118,
+          4703
+        ],
+        [
+          6455,
+          4696
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-026-20260829-115803-0c3385.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-027",
+      "label": {},
+      "group": "inscription",
+      "polygon": [
+        [
+          6004,
+          4696
+        ],
+        [
+          6401,
+          4696
+        ],
+        [
+          6720,
+          5101
+        ],
+        [
+          6265,
+          5090
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-027-20260829-115803-ee5e45.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-028",
+      "label": {},
+      "group": "avarana-5",
+      "polygon": [
+        [
+          5986,
+          4746
+        ],
+        [
+          5749,
+          5087
+        ],
+        [
+          6211,
+          5083
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-028-20260829-115803-6f34c5.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-029",
+      "label": {},
+      "group": "inscription",
+      "polygon": [
+        [
+          5584,
+          4685
+        ],
+        [
+          5953,
+          4693
+        ],
+        [
+          5685,
+          5072
+        ],
+        [
+          5258,
+          5069
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-029-20260829-115804-e8a20c.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-030",
+      "label": {},
+      "group": "avarana-4",
+      "polygon": [
+        [
+          4903,
+          4675
+        ],
+        [
+          5527,
+          4689
+        ],
+        [
+          5215,
+          5058
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-030-20260829-115804-c7643c.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-031",
+      "label": {},
+      "group": "avarana-4",
+      "polygon": [
+        [
+          5624,
+          4646
+        ],
+        [
+          6004,
+          4191
+        ],
+        [
+          6369,
+          4653
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-031-20260829-115804-4d94a7.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-032",
+      "label": {},
+      "group": "avarana-3",
+      "polygon": [
+        [
+          5315,
+          4227
+        ],
+        [
+          5774,
+          4130
+        ],
+        [
+          6219,
+          4137
+        ],
+        [
+          6695,
+          4263
+        ],
+        [
+          6699,
+          3957
+        ],
+        [
+          6118,
+          3786
+        ],
+        [
+          6014,
+          3696
+        ],
+        [
+          5882,
+          3797
+        ],
+        [
+          5330,
+          3940
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-032-20260829-115804-349260.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-033",
+      "label": {},
+      "group": "inscription",
+      "polygon": [
+        [
+          6510,
+          4249
+        ],
+        [
+          6347,
+          4469
+        ],
+        [
+          6613,
+          4667
+        ],
+        [
+          6807,
+          4443
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-033-20260829-115804-5f847c.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-034",
+      "label": {},
+      "group": "inscription",
+      "polygon": [
+        [
+          5220,
+          4370
+        ],
+        [
+          5495,
+          4254
+        ],
+        [
+          5611,
+          4542
+        ],
+        [
+          5319,
+          4624
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-034-20260829-115804-c98ae2.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-035",
+      "label": {},
+      "group": "avarana-3",
+      "polygon": [
+        [
+          6751,
+          3768
+        ],
+        [
+          6725,
+          4039
+        ],
+        [
+          6871,
+          4112
+        ],
+        [
+          7091,
+          3914
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-035-20260829-115804-84b41d.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-036",
+      "label": {},
+      "group": "avarana-2",
+      "polygon": [
+        [
+          6506,
+          3669
+        ],
+        [
+          6600,
+          3437
+        ],
+        [
+          7112,
+          3368
+        ],
+        [
+          7422,
+          3725
+        ],
+        [
+          7319,
+          4009
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-036-20260829-115804-29f718.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-037",
+      "label": {},
+      "group": "avarana-2",
+      "polygon": [
+        [
+          7379,
+          4017
+        ],
+        [
+          7620,
+          3845
+        ],
+        [
+          8063,
+          3974
+        ],
+        [
+          8187,
+          4387
+        ],
+        [
+          8024,
+          4619
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-037-20260829-115804-667c08.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-038",
+      "label": {},
+      "group": "avarana-2",
+      "polygon": [
+        [
+          7547,
+          3536
+        ],
+        [
+          7430,
+          3763
+        ],
+        [
+          7538,
+          3845
+        ],
+        [
+          7770,
+          3708
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-038-20260829-115804-3c9886.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-039",
+      "label": {},
+      "group": "avarana-1",
+      "polygon": [
+        [
+          6864,
+          1288
+        ],
+        [
+          6867,
+          927
+        ],
+        [
+          5308,
+          915
+        ],
+        [
+          5314,
+          1285
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-039-20260829-115804-e8ad91.jpg",
+          "rotation": 180,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-040",
+      "label": {
+        "en": "Caption syllable 12/16 — मो",
+        "lt": ""
+      },
+      "group": "avarana-1",
+      "polygon": [
+        [
+          7303,
+          2102
+        ],
+        [
+          7291,
+          2479
+        ],
+        [
+          7767,
+          2486
+        ],
+        [
+          7761,
+          2108
+        ]
+      ],
+      "content": {
+        "devanagari": "मो",
+        "iast": "mo",
+        "translation": {
+          "en": "mo· — 1st syllable of mohana, \"enchanting, bewildering\"",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "One of 16 syllables engraved in the breaks of the bhūpura's middle line. They are not bīja mantras: read clockwise around the square they form a single caption naming this āvaraṇa, the way a book labels a chapter.\n\n**प्रथमावरणम् श्रीत्रैलोक्यमोहनचक्रं**  \n*prathamāvaraṇam śrī-trailokya-mohana-cakraṁ*  \n\"The first āvaraṇa — the Śrī Trailokya-mohana cakra, the wheel that enchants the three worlds.\"\n\nThe sequence starts on the bottom (west) side just past the bottom-right corner and runs clockwise:  \nप्र · थ · *west gate* · मा · व · र · ण · म · *north gate* · श्री · त्रै · लो · क्य · *east gate* · मो · ह · न · *south gate* · च · क्रं.  \nThis syllable is **मो**, the 12th.\n\nEvery syllable is engraved with its top pointing outward, so the caption reads upright when you stand at the bindu and turn clockwise. That is why the bottom-side syllables look upside down on the plate (थ resembles the numeral ८, प्र a Latin K) and the left and right sides look sideways.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-040-20260829-115804-36f66f.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-041",
+      "label": {
+        "en": "Caption syllable 13/16 — ह",
+        "lt": ""
+      },
+      "group": "avarana-1",
+      "polygon": [
+        [
+          9700,
+          3724
+        ],
+        [
+          9696,
+          3955
+        ],
+        [
+          10042,
+          3959
+        ],
+        [
+          10042,
+          3732
+        ]
+      ],
+      "content": {
+        "devanagari": "ह",
+        "iast": "ha",
+        "translation": {
+          "en": "·ha· — 2nd syllable of mohana, \"enchanting, bewildering\"",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "One of 16 syllables engraved in the breaks of the bhūpura's middle line. They are not bīja mantras: read clockwise around the square they form a single caption naming this āvaraṇa, the way a book labels a chapter.\n\n**प्रथमावरणम् श्रीत्रैलोक्यमोहनचक्रं**  \n*prathamāvaraṇam śrī-trailokya-mohana-cakraṁ*  \n\"The first āvaraṇa — the Śrī Trailokya-mohana cakra, the wheel that enchants the three worlds.\"\n\nThe sequence starts on the bottom (west) side just past the bottom-right corner and runs clockwise:  \nप्र · थ · *west gate* · मा · व · र · ण · म · *north gate* · श्री · त्रै · लो · क्य · *east gate* · मो · ह · न · *south gate* · च · क्रं.  \nThis syllable is **ह**, the 13th.\n\nEvery syllable is engraved with its top pointing outward, so the caption reads upright when you stand at the bindu and turn clockwise. That is why the bottom-side syllables look upside down on the plate (थ resembles the numeral ८, प्र a Latin K) and the left and right sides look sideways.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-041-20260829-114955-41694b.jpg",
+          "rotation": 270,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-042",
+      "label": {
+        "en": "Caption syllable 14/16 — न",
+        "lt": ""
+      },
+      "group": "avarana-1",
+      "polygon": [
+        [
+          9704,
+          4541
+        ],
+        [
+          9708,
+          4747
+        ],
+        [
+          10030,
+          4743
+        ],
+        [
+          10026,
+          4537
+        ]
+      ],
+      "content": {
+        "devanagari": "न",
+        "iast": "na",
+        "translation": {
+          "en": "·na — 3rd syllable of mohana, \"enchanting, bewildering\"",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "One of 16 syllables engraved in the breaks of the bhūpura's middle line. They are not bīja mantras: read clockwise around the square they form a single caption naming this āvaraṇa, the way a book labels a chapter.\n\n**प्रथमावरणम् श्रीत्रैलोक्यमोहनचक्रं**  \n*prathamāvaraṇam śrī-trailokya-mohana-cakraṁ*  \n\"The first āvaraṇa — the Śrī Trailokya-mohana cakra, the wheel that enchants the three worlds.\"\n\nThe sequence starts on the bottom (west) side just past the bottom-right corner and runs clockwise:  \nप्र · थ · *west gate* · मा · व · र · ण · म · *north gate* · श्री · त्रै · लो · क्य · *east gate* · मो · ह · न · *south gate* · च · क्रं.  \nThis syllable is **न**, the 14th.\n\nEvery syllable is engraved with its top pointing outward, so the caption reads upright when you stand at the bindu and turn clockwise. That is why the bottom-side syllables look upside down on the plate (थ resembles the numeral ८, प्र a Latin K) and the left and right sides look sideways.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-042-20260829-115804-0eb751.jpg",
+          "rotation": 270,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-043",
+      "label": {},
+      "group": "avarana-1",
+      "polygon": [
+        [
+          4924,
+          2318
+        ],
+        [
+          4924,
+          2463
+        ],
+        [
+          5335,
+          2470
+        ],
+        [
+          5331,
+          2322
+        ]
+      ],
+      "content": {
+        "devanagari": "ऐं सर्व",
+        "iast": "aiṁ sarva",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-043-20260829-114744-48a610.jpg",
+          "rotation": 180,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-044",
+      "label": {},
+      "group": "avarana-5",
+      "polygon": [
+        [
+          6284,
+          5124
+        ],
+        [
+          6491,
+          5451
+        ],
+        [
+          6744,
+          5145
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-044-20260829-115511-e6b436.jpg",
+          "rotation": 90,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-045",
+      "label": {},
+      "group": "avarana-5",
+      "polygon": [
+        [
+          6764,
+          5951
+        ],
+        [
+          6513,
+          6310
+        ],
+        [
+          7007,
+          6324
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {
+          "en": "*ads* asds"
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-045-20260829-115732-13da69.jpg",
+          "rotation": 90,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-046",
+      "label": {},
+      "group": "avarana-7",
+      "polygon": [
+        [
+          6226,
+          5843
+        ],
+        [
+          6290,
+          5954
+        ],
+        [
+          6395,
+          5840
+        ]
+      ],
+      "content": {
+        "devanagari": "३ वं",
+        "iast": "3 vaṁ",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-046-20260829-120112-d666d7.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-047",
+      "label": {},
+      "group": "avarana-6",
+      "polygon": [
+        [
+          5773,
+          6339
+        ],
+        [
+          5961,
+          6661
+        ],
+        [
+          6173,
+          6348
+        ]
+      ],
+      "content": {
+        "devanagari": "९ अं\n७ च",
+        "iast": "9 aṁ\n7 ca",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-047-20260829-120525-bf75d9.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-048",
+      "label": {},
+      "group": "avarana-7",
+      "polygon": [
+        [
+          5827,
+          6106
+        ],
+        [
+          5982,
+          6288
+        ],
+        [
+          6132,
+          6112
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-048-20260829-120648-cd02e8.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-049",
+      "label": {},
+      "group": "avarana-8",
+      "polygon": [
+        [
+          5830,
+          5834
+        ],
+        [
+          5988,
+          6046
+        ],
+        [
+          6176,
+          5843
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-049-20260829-120718-3c8a07.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-050",
+      "label": {},
+      "group": "avarana-7",
+      "polygon": [
+        [
+          6285,
+          6008
+        ],
+        [
+          6330,
+          6084
+        ],
+        [
+          6212,
+          6082
+        ]
+      ],
+      "content": {
+        "devanagari": "२ क",
+        "iast": "2 ka",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-050-20260829-120939-a56ec2.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-051",
+      "label": {},
+      "group": "avarana-7",
+      "polygon": [
+        [
+          5574,
+          5829
+        ],
+        [
+          5665,
+          5929
+        ],
+        [
+          5728,
+          5831
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-051-20260829-121245-d0ffc3.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-052",
+      "label": {},
+      "group": "avarana-7",
+      "polygon": [
+        [
+          5671,
+          5986
+        ],
+        [
+          5744,
+          6073
+        ],
+        [
+          5615,
+          6068
+        ]
+      ],
+      "content": {
+        "devanagari": "२ शं",
+        "iast": "2 śaṁ",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-052-20260829-121759-4181c6.jpg",
+          "rotation": 180,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-053",
+      "label": {
+        "en": "Artisitic Representation of Mount Meru"
+      },
+      "group": "other",
+      "polygon": [
+        [
+          8914,
+          3621
+        ],
+        [
+          8907,
+          4238
+        ],
+        [
+          9401,
+          4257
+        ],
+        [
+          9394,
+          3627
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {
+          "en": ""
+        },
+        "explanation": {
+          "en": "Not a canonical symbol for Mount Meru"
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-053-20260829-122155-1f2c3b.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-054",
+      "label": {},
+      "group": "inscription",
+      "polygon": [
+        [
+          4939,
+          3911
+        ],
+        [
+          5053,
+          4076
+        ],
+        [
+          5331,
+          3952
+        ],
+        [
+          5249,
+          3761
+        ]
+      ],
+      "content": {
+        "devanagari": "",
+        "iast": "",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-054-20260831-090810-9712c2.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-055",
+      "label": {
+        "en": "Māhendrī (Indrāṇī)"
+      },
+      "group": "avarana-1",
+      "polygon": [
+        [
+          2806,
+          2082
+        ],
+        [
+          3388,
+          2088
+        ],
+        [
+          3388,
+          2230
+        ],
+        [
+          2812,
+          2230
+        ]
+      ],
+      "content": {
+        "devanagari": "इन्द्राणी",
+        "iast": "indrāṇī",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-055-20260912-160920-74a78b.jpg",
+          "rotation": 180,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-056",
+      "label": {
+        "en": "Caption syllable 10/16 — लो",
+        "lt": ""
+      },
+      "group": "avarana-1",
+      "polygon": [
+        [
+          3494,
+          2098
+        ],
+        [
+          3494,
+          2402
+        ],
+        [
+          3849,
+          2408
+        ],
+        [
+          3855,
+          2098
+        ]
+      ],
+      "content": {
+        "devanagari": "लो",
+        "iast": "lo",
+        "translation": {
+          "en": "·lo· — 2nd syllable of trailokya, \"the three worlds\"",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "One of 16 syllables engraved in the breaks of the bhūpura's middle line. They are not bīja mantras: read clockwise around the square they form a single caption naming this āvaraṇa, the way a book labels a chapter.\n\n**प्रथमावरणम् श्रीत्रैलोक्यमोहनचक्रं**  \n*prathamāvaraṇam śrī-trailokya-mohana-cakraṁ*  \n\"The first āvaraṇa — the Śrī Trailokya-mohana cakra, the wheel that enchants the three worlds.\"\n\nThe sequence starts on the bottom (west) side just past the bottom-right corner and runs clockwise:  \nप्र · थ · *west gate* · मा · व · र · ण · म · *north gate* · श्री · त्रै · लो · क्य · *east gate* · मो · ह · न · *south gate* · च · क्रं.  \nThis syllable is **लो**, the 10th.\n\nEvery syllable is engraved with its top pointing outward, so the caption reads upright when you stand at the bindu and turn clockwise. That is why the bottom-side syllables look upside down on the plate (थ resembles the numeral ८, प्र a Latin K) and the left and right sides look sideways.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-056-20260912-183553-739182.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-057",
+      "label": {
+        "en": "Caption syllable 11/16 — क्य",
+        "lt": ""
+      },
+      "group": "avarana-1",
+      "polygon": [
+        [
+          4495,
+          2172
+        ],
+        [
+          4495,
+          2385
+        ],
+        [
+          4820,
+          2387
+        ],
+        [
+          4820,
+          2175
+        ]
+      ],
+      "content": {
+        "devanagari": "क्य",
+        "iast": "kya",
+        "translation": {
+          "en": "·kya — 3rd syllable of trailokya, \"the three worlds\"",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "One of 16 syllables engraved in the breaks of the bhūpura's middle line. They are not bīja mantras: read clockwise around the square they form a single caption naming this āvaraṇa, the way a book labels a chapter.\n\n**प्रथमावरणम् श्रीत्रैलोक्यमोहनचक्रं**  \n*prathamāvaraṇam śrī-trailokya-mohana-cakraṁ*  \n\"The first āvaraṇa — the Śrī Trailokya-mohana cakra, the wheel that enchants the three worlds.\"\n\nThe sequence starts on the bottom (west) side just past the bottom-right corner and runs clockwise:  \nप्र · थ · *west gate* · मा · व · र · ण · म · *north gate* · श्री · त्रै · लो · क्य · *east gate* · मो · ह · न · *south gate* · च · क्रं.  \nThis syllable is **क्य**, the 11th.\n\nEvery syllable is engraved with its top pointing outward, so the caption reads upright when you stand at the bindu and turn clockwise. That is why the bottom-side syllables look upside down on the plate (थ resembles the numeral ८, प्र a Latin K) and the left and right sides look sideways.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-057-20260912-184141-4623d3.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-058",
+      "label": {},
+      "group": "avarana-1",
+      "polygon": [
+        [
+          2494,
+          2298
+        ],
+        [
+          2488,
+          2444
+        ],
+        [
+          3485,
+          2456
+        ],
+        [
+          3488,
+          2310
+        ]
+      ],
+      "content": {
+        "devanagari": "त्रें सर्व महाकुशा",
+        "iast": "treṁ sarva mahākuśā",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-058-20260912-185100-f90983.jpg",
+          "rotation": 180,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-059",
+      "label": {},
+      "group": "avarana-1",
+      "polygon": [
+        [
+          3892,
+          2313
+        ],
+        [
+          3892,
+          2459
+        ],
+        [
+          4395,
+          2464
+        ],
+        [
+          4392,
+          2315
+        ]
+      ],
+      "content": {
+        "devanagari": "त्रिखंडा",
+        "iast": "trikhaṁḍā",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-059-20260912-190122-01f8f5.jpg",
+          "rotation": 180,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-060",
+      "label": {},
+      "group": "inscription",
+      "polygon": [
+        [
+          5458,
+          1924
+        ],
+        [
+          5463,
+          2533
+        ],
+        [
+          6573,
+          2533
+        ],
+        [
+          6563,
+          1929
+        ]
+      ],
+      "content": {
+        "devanagari": "जय ",
+        "iast": "jaya ",
+        "translation": {},
+        "explanation": {}
+      },
+      "images": [
+        {
+          "file": "data/images/r-060-20260912-190404-cd08d3.jpg",
+          "rotation": 0,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-061",
+      "label": {
+        "en": "Caption syllable 1/16 — प्र",
+        "lt": ""
+      },
+      "group": "avarana-1",
+      "polygon": [
+        [
+          8129,
+          9384
+        ],
+        [
+          8469,
+          9384
+        ],
+        [
+          8469,
+          9704
+        ],
+        [
+          8129,
+          9704
+        ]
+      ],
+      "content": {
+        "devanagari": "प्र",
+        "iast": "pra",
+        "translation": {
+          "en": "pra· — 1st syllable of prathama, \"first\"",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "One of 16 syllables engraved in the breaks of the bhūpura's middle line. They are not bīja mantras: read clockwise around the square they form a single caption naming this āvaraṇa, the way a book labels a chapter.\n\n**प्रथमावरणम् श्रीत्रैलोक्यमोहनचक्रं**  \n*prathamāvaraṇam śrī-trailokya-mohana-cakraṁ*  \n\"The first āvaraṇa — the Śrī Trailokya-mohana cakra, the wheel that enchants the three worlds.\"\n\nThe sequence starts on the bottom (west) side just past the bottom-right corner and runs clockwise:  \nप्र · थ · *west gate* · मा · व · र · ण · म · *north gate* · श्री · त्रै · लो · क्य · *east gate* · मो · ह · न · *south gate* · च · क्रं.  \nThis syllable is **प्र**, the 1st.\n\nEvery syllable is engraved with its top pointing outward, so the caption reads upright when you stand at the bindu and turn clockwise. That is why the bottom-side syllables look upside down on the plate (थ resembles the numeral ८, प्र a Latin K) and the left and right sides look sideways.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-061-20260912-222910-1553e3.jpg",
+          "rotation": 180,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-062",
+      "label": {
+        "en": "Caption syllable 2/16 — थ",
+        "lt": ""
+      },
+      "group": "avarana-1",
+      "polygon": [
+        [
+          7241,
+          9421
+        ],
+        [
+          7581,
+          9421
+        ],
+        [
+          7581,
+          9741
+        ],
+        [
+          7241,
+          9741
+        ]
+      ],
+      "content": {
+        "devanagari": "थ",
+        "iast": "tha",
+        "translation": {
+          "en": "·tha· — 2nd syllable of prathama, \"first\"",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "One of 16 syllables engraved in the breaks of the bhūpura's middle line. They are not bīja mantras: read clockwise around the square they form a single caption naming this āvaraṇa, the way a book labels a chapter.\n\n**प्रथमावरणम् श्रीत्रैलोक्यमोहनचक्रं**  \n*prathamāvaraṇam śrī-trailokya-mohana-cakraṁ*  \n\"The first āvaraṇa — the Śrī Trailokya-mohana cakra, the wheel that enchants the three worlds.\"\n\nThe sequence starts on the bottom (west) side just past the bottom-right corner and runs clockwise:  \nप्र · थ · *west gate* · मा · व · र · ण · म · *north gate* · श्री · त्रै · लो · क्य · *east gate* · मो · ह · न · *south gate* · च · क्रं.  \nThis syllable is **थ**, the 2nd.\n\nEvery syllable is engraved with its top pointing outward, so the caption reads upright when you stand at the bindu and turn clockwise. That is why the bottom-side syllables look upside down on the plate (थ resembles the numeral ८, प्र a Latin K) and the left and right sides look sideways.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-062-20260912-222910-7b34f1.jpg",
+          "rotation": 180,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-063",
+      "label": {
+        "en": "Caption syllable 3/16 — मा",
+        "lt": ""
+      },
+      "group": "avarana-1",
+      "polygon": [
+        [
+          4368,
+          9366
+        ],
+        [
+          4728,
+          9366
+        ],
+        [
+          4728,
+          9686
+        ],
+        [
+          4368,
+          9686
+        ]
+      ],
+      "content": {
+        "devanagari": "मा",
+        "iast": "mā",
+        "translation": {
+          "en": "·mā· — where prathama (\"first\") joins āvaraṇam (\"enclosure\")",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "One of 16 syllables engraved in the breaks of the bhūpura's middle line. They are not bīja mantras: read clockwise around the square they form a single caption naming this āvaraṇa, the way a book labels a chapter.\n\n**प्रथमावरणम् श्रीत्रैलोक्यमोहनचक्रं**  \n*prathamāvaraṇam śrī-trailokya-mohana-cakraṁ*  \n\"The first āvaraṇa — the Śrī Trailokya-mohana cakra, the wheel that enchants the three worlds.\"\n\nThe sequence starts on the bottom (west) side just past the bottom-right corner and runs clockwise:  \nप्र · थ · *west gate* · मा · व · र · ण · म · *north gate* · श्री · त्रै · लो · क्य · *east gate* · मो · ह · न · *south gate* · च · क्रं.  \nThis syllable is **मा**, the 3rd.\n\nEvery syllable is engraved with its top pointing outward, so the caption reads upright when you stand at the bindu and turn clockwise. That is why the bottom-side syllables look upside down on the plate (थ resembles the numeral ८, प्र a Latin K) and the left and right sides look sideways.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-063-20260912-222910-36cd7e.jpg",
+          "rotation": 180,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-064",
+      "label": {
+        "en": "Caption syllable 4/16 — व",
+        "lt": ""
+      },
+      "group": "avarana-1",
+      "polygon": [
+        [
+          3485,
+          9415
+        ],
+        [
+          3825,
+          9415
+        ],
+        [
+          3825,
+          9735
+        ],
+        [
+          3485,
+          9735
+        ]
+      ],
+      "content": {
+        "devanagari": "व",
+        "iast": "va",
+        "translation": {
+          "en": "·va· — 2nd syllable of āvaraṇam, \"enclosure, circuit\"",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "One of 16 syllables engraved in the breaks of the bhūpura's middle line. They are not bīja mantras: read clockwise around the square they form a single caption naming this āvaraṇa, the way a book labels a chapter.\n\n**प्रथमावरणम् श्रीत्रैलोक्यमोहनचक्रं**  \n*prathamāvaraṇam śrī-trailokya-mohana-cakraṁ*  \n\"The first āvaraṇa — the Śrī Trailokya-mohana cakra, the wheel that enchants the three worlds.\"\n\nThe sequence starts on the bottom (west) side just past the bottom-right corner and runs clockwise:  \nप्र · थ · *west gate* · मा · व · र · ण · म · *north gate* · श्री · त्रै · लो · क्य · *east gate* · मो · ह · न · *south gate* · च · क्रं.  \nThis syllable is **व**, the 4th.\n\nEvery syllable is engraved with its top pointing outward, so the caption reads upright when you stand at the bindu and turn clockwise. That is why the bottom-side syllables look upside down on the plate (थ resembles the numeral ८, प्र a Latin K) and the left and right sides look sideways.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-064-20260912-222910-5b1a28.jpg",
+          "rotation": 180,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-065",
+      "label": {
+        "en": "Caption syllable 5/16 — र",
+        "lt": ""
+      },
+      "group": "avarana-1",
+      "polygon": [
+        [
+          2055,
+          8119
+        ],
+        [
+          2375,
+          8119
+        ],
+        [
+          2375,
+          8459
+        ],
+        [
+          2055,
+          8459
+        ]
+      ],
+      "content": {
+        "devanagari": "र",
+        "iast": "ra",
+        "translation": {
+          "en": "·ra· — 3rd syllable of āvaraṇam, \"enclosure, circuit\"",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "One of 16 syllables engraved in the breaks of the bhūpura's middle line. They are not bīja mantras: read clockwise around the square they form a single caption naming this āvaraṇa, the way a book labels a chapter.\n\n**प्रथमावरणम् श्रीत्रैलोक्यमोहनचक्रं**  \n*prathamāvaraṇam śrī-trailokya-mohana-cakraṁ*  \n\"The first āvaraṇa — the Śrī Trailokya-mohana cakra, the wheel that enchants the three worlds.\"\n\nThe sequence starts on the bottom (west) side just past the bottom-right corner and runs clockwise:  \nप्र · थ · *west gate* · मा · व · र · ण · म · *north gate* · श्री · त्रै · लो · क्य · *east gate* · मो · ह · न · *south gate* · च · क्रं.  \nThis syllable is **र**, the 5th.\n\nEvery syllable is engraved with its top pointing outward, so the caption reads upright when you stand at the bindu and turn clockwise. That is why the bottom-side syllables look upside down on the plate (थ resembles the numeral ८, प्र a Latin K) and the left and right sides look sideways.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-065-20260912-222910-e7eb1a.jpg",
+          "rotation": 90,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-066",
+      "label": {
+        "en": "Caption syllable 6/16 — ण",
+        "lt": ""
+      },
+      "group": "avarana-1",
+      "polygon": [
+        [
+          2105,
+          7699
+        ],
+        [
+          2425,
+          7699
+        ],
+        [
+          2425,
+          8039
+        ],
+        [
+          2105,
+          8039
+        ]
+      ],
+      "content": {
+        "devanagari": "ण",
+        "iast": "ṇa",
+        "translation": {
+          "en": "·ṇa· — 4th syllable of āvaraṇam, \"enclosure, circuit\"",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "One of 16 syllables engraved in the breaks of the bhūpura's middle line. They are not bīja mantras: read clockwise around the square they form a single caption naming this āvaraṇa, the way a book labels a chapter.\n\n**प्रथमावरणम् श्रीत्रैलोक्यमोहनचक्रं**  \n*prathamāvaraṇam śrī-trailokya-mohana-cakraṁ*  \n\"The first āvaraṇa — the Śrī Trailokya-mohana cakra, the wheel that enchants the three worlds.\"\n\nThe sequence starts on the bottom (west) side just past the bottom-right corner and runs clockwise:  \nप्र · थ · *west gate* · मा · व · र · ण · म · *north gate* · श्री · त्रै · लो · क्य · *east gate* · मो · ह · न · *south gate* · च · क्रं.  \nThis syllable is **ण**, the 6th.\n\nEvery syllable is engraved with its top pointing outward, so the caption reads upright when you stand at the bindu and turn clockwise. That is why the bottom-side syllables look upside down on the plate (थ resembles the numeral ८, प्र a Latin K) and the left and right sides look sideways.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-066-20260912-222910-18fb85.jpg",
+          "rotation": 90,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-067",
+      "label": {
+        "en": "Caption syllable 7/16 — म",
+        "lt": ""
+      },
+      "group": "avarana-1",
+      "polygon": [
+        [
+          2056,
+          7052
+        ],
+        [
+          2376,
+          7052
+        ],
+        [
+          2376,
+          7392
+        ],
+        [
+          2056,
+          7392
+        ]
+      ],
+      "content": {
+        "devanagari": "म",
+        "iast": "ma",
+        "translation": {
+          "en": "·m — final syllable of āvaraṇam, \"enclosure, circuit\"",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "One of 16 syllables engraved in the breaks of the bhūpura's middle line. They are not bīja mantras: read clockwise around the square they form a single caption naming this āvaraṇa, the way a book labels a chapter.\n\n**प्रथमावरणम् श्रीत्रैलोक्यमोहनचक्रं**  \n*prathamāvaraṇam śrī-trailokya-mohana-cakraṁ*  \n\"The first āvaraṇa — the Śrī Trailokya-mohana cakra, the wheel that enchants the three worlds.\"\n\nThe sequence starts on the bottom (west) side just past the bottom-right corner and runs clockwise:  \nप्र · थ · *west gate* · मा · व · र · ण · म · *north gate* · श्री · त्रै · लो · क्य · *east gate* · मो · ह · न · *south gate* · च · क्रं.  \nThis syllable is **म**, the 7th.\n\nEvery syllable is engraved with its top pointing outward, so the caption reads upright when you stand at the bindu and turn clockwise. That is why the bottom-side syllables look upside down on the plate (थ resembles the numeral ८, प्र a Latin K) and the left and right sides look sideways.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-067-20260912-222910-d7cf0b.jpg",
+          "rotation": 90,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-068",
+      "label": {
+        "en": "Caption syllable 8/16 — श्री",
+        "lt": ""
+      },
+      "group": "avarana-1",
+      "polygon": [
+        [
+          2102,
+          4363
+        ],
+        [
+          2422,
+          4363
+        ],
+        [
+          2422,
+          4723
+        ],
+        [
+          2102,
+          4723
+        ]
+      ],
+      "content": {
+        "devanagari": "श्री",
+        "iast": "śrī",
+        "translation": {
+          "en": "śrī — honorific: \"glorious, venerable\"",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "One of 16 syllables engraved in the breaks of the bhūpura's middle line. They are not bīja mantras: read clockwise around the square they form a single caption naming this āvaraṇa, the way a book labels a chapter.\n\n**प्रथमावरणम् श्रीत्रैलोक्यमोहनचक्रं**  \n*prathamāvaraṇam śrī-trailokya-mohana-cakraṁ*  \n\"The first āvaraṇa — the Śrī Trailokya-mohana cakra, the wheel that enchants the three worlds.\"\n\nThe sequence starts on the bottom (west) side just past the bottom-right corner and runs clockwise:  \nप्र · थ · *west gate* · मा · व · र · ण · म · *north gate* · श्री · त्रै · लो · क्य · *east gate* · मो · ह · न · *south gate* · च · क्रं.  \nThis syllable is **श्री**, the 8th.\n\nEvery syllable is engraved with its top pointing outward, so the caption reads upright when you stand at the bindu and turn clockwise. That is why the bottom-side syllables look upside down on the plate (थ resembles the numeral ८, प्र a Latin K) and the left and right sides look sideways.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-068-20260912-222910-d95f16.jpg",
+          "rotation": 90,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-069",
+      "label": {
+        "en": "Caption syllable 9/16 — त्रै",
+        "lt": ""
+      },
+      "group": "avarana-1",
+      "polygon": [
+        [
+          2085,
+          3470
+        ],
+        [
+          2455,
+          3470
+        ],
+        [
+          2455,
+          3830
+        ],
+        [
+          2085,
+          3830
+        ]
+      ],
+      "content": {
+        "devanagari": "त्रै",
+        "iast": "trai",
+        "translation": {
+          "en": "trai· — 1st syllable of trailokya, \"the three worlds\"",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "One of 16 syllables engraved in the breaks of the bhūpura's middle line. They are not bīja mantras: read clockwise around the square they form a single caption naming this āvaraṇa, the way a book labels a chapter.\n\n**प्रथमावरणम् श्रीत्रैलोक्यमोहनचक्रं**  \n*prathamāvaraṇam śrī-trailokya-mohana-cakraṁ*  \n\"The first āvaraṇa — the Śrī Trailokya-mohana cakra, the wheel that enchants the three worlds.\"\n\nThe sequence starts on the bottom (west) side just past the bottom-right corner and runs clockwise:  \nप्र · थ · *west gate* · मा · व · र · ण · म · *north gate* · श्री · त्रै · लो · क्य · *east gate* · मो · ह · न · *south gate* · च · क्रं.  \nThis syllable is **त्रै**, the 9th.\n\nEvery syllable is engraved with its top pointing outward, so the caption reads upright when you stand at the bindu and turn clockwise. That is why the bottom-side syllables look upside down on the plate (थ resembles the numeral ८, प्र a Latin K) and the left and right sides look sideways.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-069-20260912-222910-6d6873.jpg",
+          "rotation": 90,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-070",
+      "label": {
+        "en": "Caption syllable 15/16 — च",
+        "lt": ""
+      },
+      "group": "avarana-1",
+      "polygon": [
+        [
+          9640,
+          7283
+        ],
+        [
+          9960,
+          7283
+        ],
+        [
+          9960,
+          7623
+        ],
+        [
+          9640,
+          7623
+        ]
+      ],
+      "content": {
+        "devanagari": "च",
+        "iast": "ca",
+        "translation": {
+          "en": "ca· — 1st syllable of cakraṁ, \"wheel, chakra\"",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "One of 16 syllables engraved in the breaks of the bhūpura's middle line. They are not bīja mantras: read clockwise around the square they form a single caption naming this āvaraṇa, the way a book labels a chapter.\n\n**प्रथमावरणम् श्रीत्रैलोक्यमोहनचक्रं**  \n*prathamāvaraṇam śrī-trailokya-mohana-cakraṁ*  \n\"The first āvaraṇa — the Śrī Trailokya-mohana cakra, the wheel that enchants the three worlds.\"\n\nThe sequence starts on the bottom (west) side just past the bottom-right corner and runs clockwise:  \nप्र · थ · *west gate* · मा · व · र · ण · म · *north gate* · श्री · त्रै · लो · क्य · *east gate* · मो · ह · न · *south gate* · च · क्रं.  \nThis syllable is **च**, the 15th.\n\nEvery syllable is engraved with its top pointing outward, so the caption reads upright when you stand at the bindu and turn clockwise. That is why the bottom-side syllables look upside down on the plate (थ resembles the numeral ८, प्र a Latin K) and the left and right sides look sideways.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-070-20260912-222910-ad65ec.jpg",
+          "rotation": 270,
+          "caption": {}
+        }
+      ]
+    },
+    {
+      "id": "r-071",
+      "label": {
+        "en": "Caption syllable 16/16 — क्रं",
+        "lt": ""
+      },
+      "group": "avarana-1",
+      "polygon": [
+        [
+          9590,
+          8067
+        ],
+        [
+          9910,
+          8067
+        ],
+        [
+          9910,
+          8427
+        ],
+        [
+          9590,
+          8427
+        ]
+      ],
+      "content": {
+        "devanagari": "क्रं",
+        "iast": "kraṁ",
+        "translation": {
+          "en": "·kraṁ — 2nd syllable of cakraṁ, \"wheel, chakra\"",
+          "lt": ""
+        },
+        "explanation": {
+          "en": "One of 16 syllables engraved in the breaks of the bhūpura's middle line. They are not bīja mantras: read clockwise around the square they form a single caption naming this āvaraṇa, the way a book labels a chapter.\n\n**प्रथमावरणम् श्रीत्रैलोक्यमोहनचक्रं**  \n*prathamāvaraṇam śrī-trailokya-mohana-cakraṁ*  \n\"The first āvaraṇa — the Śrī Trailokya-mohana cakra, the wheel that enchants the three worlds.\"\n\nThe sequence starts on the bottom (west) side just past the bottom-right corner and runs clockwise:  \nप्र · थ · *west gate* · मा · व · र · ण · म · *north gate* · श्री · त्रै · लो · क्य · *east gate* · मो · ह · न · *south gate* · च · क्रं.  \nThis syllable is **क्रं**, the 16th.\n\nEvery syllable is engraved with its top pointing outward, so the caption reads upright when you stand at the bindu and turn clockwise. That is why the bottom-side syllables look upside down on the plate (थ resembles the numeral ८, प्र a Latin K) and the left and right sides look sideways.",
+          "lt": ""
+        }
+      },
+      "images": [
+        {
+          "file": "data/images/r-071-20260912-222910-f0f2b2.jpg",
+          "rotation": 270,
+          "caption": {}
+        }
+      ]
+    }
+  ]
+}

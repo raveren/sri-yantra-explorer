@@ -1,0 +1,4 @@
+# data/ holds uploads and JSON only — never execute anything from here.
+<FilesMatch "\.(php|phtml|php[0-9]|phar|pl|py|cgi|sh)$">
+  Require all denied
+</FilesMatch>

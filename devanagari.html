@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Devanagari — Śrī Yantra reading reference</title>
+<style>
+  :root {
+    --bg: #171210; --panel: #221a15; --panel-2: #2b2119;
+    --text: #e9ddcd; --muted: #a3927e; --accent: #cf9862;
+    --line: #3a2d23; --dev: #f3e3c8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg); color: var(--text); margin: 0;
+    font: 16px/1.6 "Segoe UI", system-ui, sans-serif;
+  }
+  .dev { font-family: "Noto Serif Devanagari", "Noto Sans Devanagari", "Nirmala UI", "Mangal", serif;
+    color: var(--dev); }
+  main { max-width: 980px; margin: 0 auto; padding: 28px 20px 80px; }
+  h1 { color: var(--accent); font-size: 1.7rem; margin: 10px 0 4px; }
+  h2 { color: var(--accent); font-size: 1.25rem; margin: 44px 0 6px;
+    border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+  .lede { color: var(--muted); margin-top: 0; }
+  a { color: var(--accent); }
+  p.note { color: var(--muted); font-size: 0.92rem; }
+
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; }
+  th, td { border: 1px solid var(--line); padding: 7px 11px; text-align: left; vertical-align: middle; }
+  th { background: var(--panel); color: var(--muted); font-weight: 600; font-size: 0.82rem;
+    text-transform: uppercase; letter-spacing: 0.06em; }
+  td.g { font-size: 2rem; line-height: 1.4; text-align: center; width: 90px; }
+  td.g2 { font-size: 1.5rem; line-height: 1.5; text-align: center; }
+  td.iast { font-style: italic; color: var(--accent); white-space: nowrap; }
+  tr:nth-child(even) td { background: rgba(255,255,255,0.018); }
+
+  .anatomy { display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+    padding: 18px 22px; margin: 16px 0; }
+  .anatomy .big { font-size: 4.5rem; line-height: 1.3; }
+  .anatomy .parts { display: flex; gap: 10px; flex-wrap: wrap; }
+  .part { text-align: center; background: var(--panel-2); border: 1px solid var(--line);
+    border-radius: 9px; padding: 8px 14px; }
+  .part .p-g { font-size: 1.9rem; line-height: 1.4; }
+  .part .p-l { font-size: 0.78rem; color: var(--muted); }
+  .plus { color: var(--muted); font-size: 1.4rem; align-self: center; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin: 14px 0; }
+  .cell { background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    padding: 10px 12px; text-align: center; }
+  .cell .c-g { font-size: 2.2rem; line-height: 1.5; }
+  .cell .c-i { font-style: italic; color: var(--accent); }
+  .cell .c-n { font-size: 0.78rem; color: var(--muted); }
+
+  .crumbs { color: var(--muted); font-size: 0.9rem; }
+  code { background: var(--panel-2); border-radius: 5px; padding: 1px 6px; }
+</style>
+</head>
+<body>
+<main>
+  <p class="crumbs"><a href="index.html">← back to the yantra</a> · <a href="sri-yantra-explained.html">meaning reference →</a></p>
+  <h1>Reading the letters on the yantra</h1>
+  <p class="lede">Every character and combination you are likely to meet on the copper plate,
+  with IAST transliteration. Companion to <a href="sri-yantra-explained.html">The Śrī Yantra, Explained</a>.</p>
+
+  <h2>1 · How Devanagari works</h2>
+  <p>Devanagari is a syllabic script. Each consonant letter carries a built-in
+  <b>inherent vowel “a”</b>: क alone reads <i>ka</i>, not <i>k</i>. Other vowels replace
+  the inherent one via small satellite signs (<b>mātrās</b>) attached to the consonant:
+  का <i>kā</i>, कि <i>ki</i>, कु <i>ku</i>. A subscript stroke ्&nbsp;(<b>virāma</b>)
+  deletes the vowel entirely: क् is bare <i>k</i>. When two or more consonants meet with
+  no vowel between them, they fuse into a single stacked or blended shape — a
+  <b>conjunct</b> — which is why mantric syllables can look so intricate. The horizontal
+  headline joins the letters of a word; on an engraving it is often the clearest guide to
+  where words begin and end.</p>
+
+  <div class="anatomy">
+    <div class="big dev">ह्रीं</div>
+    <div class="plus">=</div>
+    <div class="parts">
+      <div class="part"><div class="p-g dev">ह</div><div class="p-l">ha</div></div>
+      <div class="plus">+</div>
+      <div class="part"><div class="p-g dev">्</div><div class="p-l">virāma<br>(drops the a)</div></div>
+      <div class="plus">+</div>
+      <div class="part"><div class="p-g dev">र</div><div class="p-l">ra</div></div>
+      <div class="plus">+</div>
+      <div class="part"><div class="p-g dev">ी</div><div class="p-l">ī&nbsp;sign</div></div>
+      <div class="plus">+</div>
+      <div class="part"><div class="p-g dev">ं</div><div class="p-l">anusvāra ṁ</div></div>
+    </div>
+    <div class="plus">→ <i>hrīṁ</i></div>
+  </div>
+
+  <h2>2 · The sixteen vowels — the sixteen petals</h2>
+  <p>The independent vowel letters are used at the start of a syllable; the mātrā column
+  shows the same vowel as it attaches to a consonant (shown on क <i>k</i>). The Śrī Vidyā
+  tradition counts exactly sixteen — <b>they are engraved one per petal on the outer
+  sixteen-petal lotus of this plate</b>, each paired with its ākarṣiṇī goddess.</p>
+  <table id="t-vowels"></table>
+  <p class="note">The last two are strictly vowel <i>a</i> + a mark (anusvāra / visarga),
+  but the mātṛkā ("alphabet-goddess") tradition counts them as vowels 15 and 16.</p>
+
+  <h2>3 · The consonants</h2>
+  <p>Arranged in the traditional grid: five rows by place of articulation (each row runs
+  unvoiced, unvoiced-aspirate, voiced, voiced-aspirate, nasal), then semivowels and
+  sibilants. Every glyph below reads with the inherent <i>a</i>.</p>
+  <table id="t-cons"></table>
+
+  <h2>4 · Marks and punctuation</h2>
+  <table id="t-marks"></table>
+
+  <h2>5 · Numerals</h2>
+  <p>The engraver numbered many of the deity names on this plate (e.g. १ कामेश्वरी…),
+  so the numerals are load-bearing: the number often identifies a ring position even
+  when the name is worn.</p>
+  <div class="grid" id="g-num"></div>
+
+  <h2>6 · The bīja syllables on this plate</h2>
+  <p>Seed syllables — single compressed utterances treated as the sound-body of a deity.
+  These are the ones engraved on (or associated with) this yantra.</p>
+  <table id="t-bija"></table>
+
+  <h2>7 · Conjuncts you will meet on the plate</h2>
+  <p>The fused consonant clusters, each broken into its parts, with a word from this
+  plate where it occurs. Two recurring special forms: <b>र as a first member</b> becomes
+  a small hook (<i>repha</i>) written <em>above</em> the following letter — सर्व
+  <i>sarva</i> hides its r up top; <b>र as a second member</b> becomes a diagonal stroke
+  below — क्र <i>kra</i>, प्र <i>pra</i>.</p>
+  <table id="t-conj"></table>
+
+  <h2>8 · Plate words, decoded</h2>
+  <p>Frequent words from the engravings, split syllable by syllable.</p>
+  <table id="t-words"></table>
+
+  <h2>9 · Pronouncing the IAST</h2>
+  <table id="t-pron"></table>
+</main>
+
+<script>
+'use strict';
+
+const VOWELS = [
+  ['अ',  'a',  '(inherent)', 'क',  'ka'],
+  ['आ',  'ā',  'ा',  'का', 'kā'],
+  ['इ',  'i',  'ि',  'कि', 'ki'],
+  ['ई',  'ī',  'ी',  'की', 'kī'],
+  ['उ',  'u',  'ु',  'कु', 'ku'],
+  ['ऊ',  'ū',  'ू',  'कू', 'kū'],
+  ['ऋ',  'ṛ',  'ृ',  'कृ', 'kṛ'],
+  ['ॠ',  'ṝ',  'ॄ',  'कॄ', 'kṝ'],
+  ['ऌ',  'ḷ',  'ॢ',  'कॢ', 'kḷ'],
+  ['ॡ',  'ḹ',  'ॣ',  'कॣ', 'kḹ'],
+  ['ए',  'e',  'े',  'के', 'ke'],
+  ['ऐ',  'ai', 'ै',  'कै', 'kai'],
+  ['ओ',  'o',  'ो',  'को', 'ko'],
+  ['औ',  'au', 'ौ',  'कौ', 'kau'],
+  ['अं', 'aṁ', 'ं',  'कं', 'kaṁ'],
+  ['अः', 'aḥ', 'ः',  'कः', 'kaḥ'],
+];
+
+const CONS = [
+  ['velar (throat)',    [['क','ka'],['ख','kha'],['ग','ga'],['घ','gha'],['ङ','ṅa']]],
+  ['palatal',           [['च','ca'],['छ','cha'],['ज','ja'],['झ','jha'],['ञ','ña']]],
+  ['retroflex (curled)',[['ट','ṭa'],['ठ','ṭha'],['ड','ḍa'],['ढ','ḍha'],['ण','ṇa']]],
+  ['dental (teeth)',    [['त','ta'],['थ','tha'],['द','da'],['ध','dha'],['न','na']]],
+  ['labial (lips)',     [['प','pa'],['फ','pha'],['ब','ba'],['भ','bha'],['म','ma']]],
+  ['semivowels',        [['य','ya'],['र','ra'],['ल','la'],['व','va'],['','']]],
+  ['sibilants + h',     [['श','śa'],['ष','ṣa'],['स','sa'],['ह','ha'],['','']]],
+];
+
+const MARKS = [
+  ['ं', 'anusvāra', 'ṁ', 'nasal hum closing a syllable — the ṁ of every bīja: ह्रीं hrīṁ'],
+  ['ँ', 'candrabindu', 'm̐', 'nasalized vowel ("moon-dot"); interchangeable with anusvāra in many mantra spellings'],
+  ['ः', 'visarga', 'ḥ', 'breathy echo of the vowel: सौः sauḥ, नमः namaḥ'],
+  ['्', 'virāma / halant', '—', 'kills the inherent a: यन्त्रम् ends in bare m'],
+  ['ऽ', 'avagraha', '’', 'marks an elided initial a in sandhi (rare on yantras)'],
+  ['।', 'daṇḍa', '|', 'end of a verse line or sentence'],
+  ['॥', 'double daṇḍa', '||', 'end of a verse — closes both ślokas on this plate'],
+];
+
+const NUM = [['०','0'],['१','1'],['२','2'],['३','3'],['४','4'],['५','5'],['६','6'],['७','7'],['८','8'],['९','9']];
+
+const BIJA = [
+  ['ॐ',   'oṁ',   'praṇava', 'the absolute; opens the Mahālakṣmī line at the plate’s bottom edge'],
+  ['ऐं',  'aiṁ',  'vāgbhava-bīja', 'speech and wisdom (Sarasvatī); first syllable of the Bālā mantra'],
+  ['ह्रीं', 'hrīṁ', 'māyā-bīja / hṛllekhā', 'the goddess’s creative power (Bhuvaneśvarī); closes each kūṭa of the pañcadaśī vidyā'],
+  ['श्रीं', 'śrīṁ', 'lakṣmī-bīja', 'abundance and auspiciousness; the “sixteenth syllable” of the Ṣoḍaśī mantra'],
+  ['क्लीं', 'klīṁ', 'kāma-bīja', 'desire and attraction — engraved just left of the bindu on this plate'],
+  ['सौः',  'sauḥ', 'parā-bīja', 'the supreme Śakti — engraved just right of the bindu'],
+  ['हूं',  'hūṁ',  'kūrca-bīja', 'protective force'],
+  ['स्वाहा','svāhā','oblation call', 'closes offering mantras'],
+  ['नमः', 'namaḥ','homage', 'the standard salutation ending — everywhere on this plate'],
+];
+
+const CONJ = [
+  ['श्री','śrī','श ्+ र + ी','श्री यन्त्रम् — the single most frequent cluster on the plate'],
+  ['ह्री','hrī','ह ्+ र + ी','ह्रीं (with anusvāra)'],
+  ['क्ली','klī','क ्+ ल + ी','क्लीं beside the bindu'],
+  ['न्त्र','ntra','न ्+ त ्+ र','यन्त्रम् yantram'],
+  ['त्र','tra','त ्+ र','त्रिकोण trikoṇa, त्रिपुरा tripurā'],
+  ['क्र','kra','क ्+ र (diagonal stroke)','चक्र cakra'],
+  ['प्र','pra','प ्+ र','प्रसीद prasīda'],
+  ['ग्र','gra','ग ्+ र','विग्रहां vigrahāṁ'],
+  ['द्र','dra','द ्+ र','मुद्रा mudrā, सिन्दूर sindūra'],
+  ['र्व','rva','र (repha above) + व','सर्व sarva — begins ~40 goddess names'],
+  ['र्षि','rṣi','र (repha) + ष + ि','कामाकर्षिणी kāmākarṣiṇī'],
+  ['क्ष','kṣa','क ्+ ष (irregular fusion)','लक्ष्मी lakṣmī, संक्षोभिणी saṁkṣobhiṇī'],
+  ['क्ष्म','kṣma','क ्+ ष ्+ म','महालक्ष्म्यै mahālakṣmyai — the plate’s densest stack'],
+  ['ज्ञ','jña','ज ्+ ञ (irregular fusion)','सर्वज्ञा sarvajñā'],
+  ['द्ध','ddha','द ्+ ध','सिद्धिः siddhiḥ'],
+  ['क्ति','kti','क ्+ त + ि','शक्तिः śaktiḥ'],
+  ['त्त','tta','त ्+ त','उत्तर uttara (north)'],
+  ['श्च','śca','श ्+ च','पश्चिम paścima (west)'],
+  ['स्फ','spha','स ्+ फ','स्फुरत् sphurat (gleaming)'],
+  ['स्मि','smi','स ्+ म + ि','स्मितमुखीम् smitamukhīm (smiling-faced)'],
+  ['ङ्ग','ṅga','ङ ्+ ग','अनङ्ग anaṅga (the bodiless — Kāma)'],
+  ['ङ्कु','ṅku','ङ ्+ क + ु','अङ्कुश aṅkuśa (goad)'],
+  ['म्ब','mba','म ्+ ब','अम्बिका ambikā (Mother)'],
+  ['ज्व','jva','ज ्+ व','ज्वालामालिनी jvālāmālinī'],
+  ['त्न','tna','त ्+ न','रत्न ratna (jewel)'],
+  ['न्द','nda','न ्+ द','आनन्द ānanda (bliss)'],
+  ['ध्या','dhyā','ध ्+ य + ा','ध्यायेत् dhyāyet (one should meditate)'],
+  ['स्व','sva','स ्+ व','स्वस्तिक svastika (the border motif)'],
+];
+
+const WORDS = [
+  ['श्री यन्त्रम्','śrī yantram','the title','श्री(śrī) यन्(yan) त्रम्(tram)'],
+  ['त्रिपुरसुन्दरी','tripurasundarī','the goddess of the yantra','त्रि(tri) पु(pu) र(ra) सुन्(sun) द(da) री(rī)'],
+  ['महालक्ष्म्यै नमः','mahālakṣmyai namaḥ','“salutation to Mahālakṣmī” (dative + homage)','म(ma) हा(hā) लक्ष्म्यै(lakṣmyai) न(na) मः(maḥ)'],
+  ['कामाकर्षिणी','kāmākarṣiṇī','“attractor of desire” — 16-petal ring','का(kā) मा(mā) कर्(kar) षि(ṣi) णी(ṇī)'],
+  ['सर्वसंक्षोभिणी','sarva-saṁkṣobhiṇī','“agitator of all” — mudrā list & 14-ring','सर्(sar) व(va) सं(saṁ) क्षो(kṣo) भि(bhi) णी(ṇī)'],
+  ['अणिमासिद्धिः','aṇimā-siddhiḥ','the minuteness-power — bhūpura gate','अ(a) णि(ṇi) मा(mā) सिद्(sid) धिः(dhiḥ)'],
+  ['राजराजेश्वरी','rājarājeśvarī','“Empress of Kings” — top benediction','रा(rā) ज(ja) रा(rā) जे(je) श्व(śva) री(rī)'],
+  ['प्रसीद','prasīda','“be gracious!” — Mahālakṣmī line','प्र(pra) सी(sī) द(da)'],
+  ['बिन्दु','bindu','the central point','बिन्(bin) दु(du)'],
+  ['आवरण','āvaraṇa','enclosure / ring','आ(ā) व(va) र(ra) ण(ṇa)'],
+];
+
+const PRON = [
+  ['a', 'like u in “but”'], ['ā', 'long a, as in “father”'],
+  ['i / ī', 'as in “bit” / “beet”'], ['u / ū', 'as in “put” / “boot”'],
+  ['ṛ', 'vocalic r — “ri” with a tapped r (kṛ ≈ “kri”)'],
+  ['e / o', 'always long — “ay” in “say”, “o” in “go”'],
+  ['ai / au', 'as in “aisle”, “cow”'],
+  ['ṁ', 'nasal hum; before a consonant it takes that consonant’s nasal color'],
+  ['ḥ', 'light breath echoing the vowel: namaḥ ≈ “namaha”'],
+  ['c', 'always “ch” as in “church” (cakra = “chakra”)'],
+  ['kh gh ch jh ṭh ḍh th dh ph bh', 'aspirated — the h is a real puff of air (ph as in “uphill”, never “f”)'],
+  ['ṭ ḍ ṇ', 'retroflex — tongue curled back'],
+  ['t d n', 'dental — tongue on the teeth'],
+  ['ś / ṣ', 'both ≈ “sh”; ś is palatal (śrī), ṣ retroflex (ṣoḍaśī)'],
+  ['ñ / ṅ', '“ny” as in “canyon” / “ng” as in “sing”'],
+  ['v', 'between English v and w'],
+];
+
+function fill(id, head, rows) {
+  const t = document.getElementById(id);
+  t.innerHTML = '<tr>' + head.map(h => `<th>${h}</th>`).join('') + '</tr>' +
+    rows.map(r => '<tr>' + r.join('') + '</tr>').join('');
+}
+
+fill('t-vowels', ['letter', 'IAST', 'mātrā (sign)', 'on क', 'reads'],
+  VOWELS.map(([v, i, m, k, ki]) =>
+    [`<td class="g dev">${v}</td>`, `<td class="iast">${i}</td>`,
+     `<td class="g2 dev">${m === '(inherent)' ? '<span style="color:var(--muted);font-size:.9rem">(inherent)</span>' : '◌' + m}</td>`,
+     `<td class="g2 dev">${k}</td>`, `<td class="iast">${ki}</td>`]));
+
+fill('t-cons', ['row', '', '', '', '', ''],
+  CONS.map(([name, row]) =>
+    [`<td style="color:var(--muted);font-size:.85rem">${name}</td>`,
+     ...row.map(([g, i]) => g
+       ? `<td class="g2"><span class="dev" style="font-size:1.8rem">${g}</span><br><span class="iast">${i}</span></td>`
+       : '<td></td>')]));
+
+fill('t-marks', ['mark', 'name', 'IAST', 'role'],
+  MARKS.map(([g, n, i, d]) =>
+    [`<td class="g dev">${g === '्' || g === 'ं' || g === 'ँ' || g === 'ः' ? '◌' + g : g}</td>`,
+     `<td>${n}</td>`, `<td class="iast">${i}</td>`, `<td class="dev-mixed">${d}</td>`]));
+
+document.getElementById('g-num').innerHTML =
+  NUM.map(([d, a]) => `<div class="cell"><div class="c-g dev">${d}</div><div class="c-i">${a}</div></div>`).join('');
+
+fill('t-bija', ['bīja', 'IAST', 'name', 'meaning on this plate'],
+  BIJA.map(([g, i, n, d]) =>
+    [`<td class="g dev">${g}</td>`, `<td class="iast">${i}</td>`, `<td>${n}</td>`, `<td>${d}</td>`]));
+
+fill('t-conj', ['cluster', 'IAST', 'built from', 'where you’ll see it'],
+  CONJ.map(([g, i, b, w]) =>
+    [`<td class="g dev">${g}</td>`, `<td class="iast">${i}</td>`,
+     `<td class="dev" style="font-size:1.15rem">${b}</td>`, `<td>${w}</td>`]));
+
+fill('t-words', ['word', 'IAST', 'meaning', 'syllable by syllable'],
+  WORDS.map(([g, i, m, s]) =>
+    [`<td class="g2 dev" style="text-align:left;font-size:1.5rem">${g}</td>`,
+     `<td class="iast">${i}</td>`, `<td>${m}</td>`,
+     `<td class="dev" style="font-size:1.05rem">${s}</td>`]));
+
+fill('t-pron', ['IAST', 'sounds like'],
+  PRON.map(([i, d]) => [`<td class="iast">${i}</td>`, `<td>${d}</td>`]));
+</script>
+</body>
+</html>

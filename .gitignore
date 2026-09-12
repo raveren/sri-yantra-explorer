@@ -1,0 +1,12 @@
+# Runtime state written by the PHP endpoints
+data/backups/
+data/authlog.php
+
+# Editor password hash — private. A fresh checkout falls back to
+# api/config.example.php (password 1008); set a real one with api/set-password.php
+api/config.php
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
+desktop.ini

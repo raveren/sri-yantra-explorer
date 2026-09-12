@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Śrī Yantra Explorer</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="app">
+  <div id="viewer-wrap">
+    <div id="viewer"></div>
+
+    <div id="toolbar" class="card">
+      <span id="tb-title">श्री यन्त्रम्</span>
+      <span class="tb-sep"></span>
+      <button id="tb-zoom-out" title="Zoom out">−</button>
+      <button id="tb-home" title="Fit to screen">⌂</button>
+      <button id="tb-zoom-in" title="Zoom in">+</button>
+      <span class="tb-sep"></span>
+      <button id="tb-overlays" class="toggle on" title="Toggle overlays (H)">Overlays</button>
+      <span class="tb-sep"></span>
+      <span id="tb-lang"></span>
+      <button id="tb-edit" class="toggle editor-ui" title="Toggle edit mode (E)">Edit</button>
+      <span id="tb-edit-tools" class="editonly editor-ui">
+        <button id="tb-new" title="Trace a new region (N)">＋ Region</button>
+        <select id="tb-group" title="Group for newly traced regions"></select>
+        <button id="tb-save" title="Save (Ctrl+S)">Save</button>
+      </span>
+      <span id="tb-status" class="editor-ui"></span>
+    </div>
+
+    <div id="legend" class="card">
+      <div id="legend-head">
+        <span id="legend-title">Āvaraṇas</span>
+        <button id="legend-toggle" title="Collapse">–</button>
+      </div>
+      <div id="legend-body"></div>
+    </div>
+
+    <div id="welcome" class="hidden">
+      <div class="box card">
+        <div class="dev-title">श्री यन्त्रम्</div>
+        <h1>Śrī Yantra</h1>
+        <p>Choose your language · Pasirinkite kalbą</p>
+        <div class="lang-buttons" id="welcome-langs"></div>
+      </div>
+    </div>
+
+    <div id="draftbar" class="card hidden">
+      <span>An unsaved draft from a previous session was found.</span>
+      <button id="draft-restore">Restore draft</button>
+      <button id="draft-discard">Discard</button>
+    </div>
+
+    <div id="drawhint" class="card hidden">
+      Click to add points · click the <b>first point</b> or press <b>Enter</b> to close · <b>Esc</b> cancels
+    </div>
+  </div>
+
+  <aside id="panel">
+    <div id="tabs">
+      <button id="tab-region" class="tab active">Region</button>
+      <button id="tab-index" class="tab">Index</button>
+    </div>
+
+    <div id="panel-region" class="panel-page">
+      <div id="region-empty">
+        <h2>Śrī Yantra Explorer</h2>
+        <p>A scanned copper Śrī Yantra plate, explorable like a map: drag to pan,
+        scroll or pinch to zoom.</p>
+        <p>Click a highlighted region to read its mantra — Devanagari,
+        transliteration, translation and commentary. The <b>Index</b> tab lists
+        every annotated region by enclosure.</p>
+        <p class="hint">Press <b>H</b> to hide the overlays and view the bare plate.</p>
+        <p class="hint">Learn more: <a href="sri-yantra-explained.html">The Śrī Yantra,
+        Explained</a> · <a href="devanagari.html">Reading the letters</a></p>
+      </div>
+
+      <div id="region-view" class="hidden">
+        <div id="rv-group" class="chip"></div>
+        <h2 id="rv-label"></h2>
+        <div id="rv-dev" class="devanagari"></div>
+        <div id="rv-iast" class="iast"></div>
+        <div id="rv-images" class="rimages"></div>
+        <div class="block" id="rv-trans-block"><h3 id="rv-trans-h">Translation</h3><p id="rv-trans"></p></div>
+        <div class="block"><h3 id="rv-expl-h">Explanation</h3><div id="rv-expl" class="md"></div></div>
+        <button id="rv-zoom">Zoom to region</button>
+      </div>
+
+      <div id="region-edit" class="hidden">
+        <label id="re-group-wrap">Group <select id="re-group"></select></label>
+
+        <div class="field-head">Images
+          <span class="btns">
+            <button type="button" id="re-img-crop" title="Crop this region from the full-resolution scan and attach it">📷 Crop region</button>
+            <button type="button" id="re-img-upload" title="Upload an image file (JPEG, PNG, WebP)">Upload…</button>
+            <input type="file" id="re-img-file" accept="image/jpeg,image/png,image/webp" multiple hidden>
+          </span>
+        </div>
+        <div id="re-images" class="rimages"></div>
+
+        <div class="field-head" style="margin-top:12px">Devanagari
+          <button type="button" id="re-dev-kbd" title="Toggle on-screen Devanagari keyboard">⌨ देवनागरी</button>
+        </div>
+        <textarea id="re-dev" class="devanagari" rows="3" placeholder="देवनागरी"></textarea>
+        <div id="dev-kbd" class="kbd hidden"></div>
+
+        <div class="field-head" style="margin-top:10px">IAST</div>
+        <textarea id="re-iast" rows="2" placeholder="transliteration"></textarea>
+        <div id="iast-bar" class="kbd iast-bar"></div>
+
+        <div id="re-langtabs" class="langtabs"></div>
+        <label>Label <input id="re-label" placeholder="e.g. Mahālakṣmī mantra"></label>
+        <label id="re-trans-wrap">Translation <textarea id="re-trans" rows="3"></textarea></label>
+        <label>Explanation <span class="hint">(Markdown: **bold**, *italic*, lists, [links](url), headings)</span>
+          <textarea id="re-expl" rows="8"></textarea></label>
+
+        <div class="row">
+          <button id="re-zoom">Zoom to region</button>
+          <button id="re-delete" class="danger">Delete</button>
+        </div>
+        <div class="hint">id: <span id="re-id"></span> · drag dots to move vertices, drag small dots to insert, Alt-click a dot to remove</div>
+      </div>
+    </div>
+
+    <div id="panel-index" class="panel-page hidden"></div>
+
+    <footer id="panel-foot">
+      Click a region to read it · <b>H</b> toggles overlays · <b>Esc</b> deselects
+    </footer>
+  </aside>
+</div>
+
+<script src="vendor/openseadragon.min.js"></script>
+<script src="vendor/marked.min.js"></script>
+<script src="js/translit.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
