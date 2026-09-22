@@ -69,6 +69,9 @@ automatically), then:
    script field auto-fills the other (`js/translit.js`) as long as the other
    field is empty or still holds the auto-generated text; editing it by hand
    breaks the link. Hyphens in IAST are dropped so compounds render joined.
+   **Internal notes** (bottom of the form) is a free-text scratch field for
+   editors — to-dos, doubts, sources to check. It is saved with the region
+   (and with groups) but never rendered in the public viewer.
    Each region can carry images. A newly traced region automatically gets a
    crop of itself attached (the full-resolution tiles under it, stitched into
    a JPEG ≤1600 px); **📷 Crop region** adds another crop on demand (e.g.

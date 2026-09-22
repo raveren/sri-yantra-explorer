@@ -4,7 +4,8 @@
  *   meta.languages           — [{code, label}, ...]; add a language here to extend
  *   groups[key].label        — {en: ..., lt: ...}
  *   regions[].label          — {en: ..., lt: ...}
- *   regions[].content        — devanagari/iast shared; translation/explanation localized
+ *   regions[].content        — devanagari/iast/notes shared; translation/explanation localized
+ *                              (notes are internal: editor-only, never rendered to visitors)
  *
  * One page: index.html opens as the public explorer. Opening it with ?edit
  * prompts for the editor password (verified by api/auth.php) and unlocks the
@@ -336,7 +337,7 @@ function nextId() {
 
 // Groups (āvaraṇas) carry the same annotatable payload as regions.
 function normalizeData() {
-  const emptyContent = () => ({ devanagari: '', iast: '', translation: {}, explanation: {} });
+  const emptyContent = () => ({ devanagari: '', iast: '', notes: '', translation: {}, explanation: {} });
   for (const g of Object.values(data.groups)) {
     g.content = g.content || emptyContent();
     g.images = g.images || [];
@@ -590,7 +591,7 @@ function finishDrawing() {
     label: {},
     group: $('tb-group')?.value || 'other',
     polygon: drawing.points,
-    content: { devanagari: '', iast: '', translation: {}, explanation: {} },
+    content: { devanagari: '', iast: '', notes: '', translation: {}, explanation: {} },
   };
   cancelDrawing();
   data.regions.push(region);
@@ -657,6 +658,7 @@ function renderPanel() {
     $('re-iast').value = o.content.iast || '';
     $('re-trans').value = locGet(o.content.translation, contentLang, false);
     $('re-expl').value = locGet(o.content.explanation, contentLang, false);
+    $('re-notes').value = o.content.notes || '';
     $('re-id').textContent = t.id;
     renderLangTabs();
     renderImages($('re-images'), o, true);
@@ -1228,6 +1230,7 @@ function wireUi() {
   bind('re-iast', (r, v) => { r.content.iast = v; syncTransliteration('iast'); });
   bind('re-trans', (r, v) => locSet(r.content, 'translation', contentLang, v), true);
   bind('re-expl', (r, v) => locSet(r.content, 'explanation', contentLang, v), true);
+  bind('re-notes', (r, v) => { r.content.notes = v; });
   const reGroup = $('re-group');
   if (reGroup) reGroup.addEventListener('change', () => {
     const t = currentTarget();
